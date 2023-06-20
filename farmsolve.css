@@ -1,0 +1,61 @@
+/* farmsolve.css */
+/* farmsolve.css */
+body {
+    background-image: url("crop1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+ }
+ button {
+   height: 30px; 
+   width: 100px;  
+   border: 1px solid red;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+ h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ 
+ h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ 
+ input[type="button"] {
+    cursor: pointer;
+ }
+ 
+ div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+ }
+ 
+ a {
+    color: #007bff;
+    text-decoration: none;
+ }
+ 
+ a:hover {
+    text-decoration: underline;
+ }
+ 
+ p {
+    margin-top: 0;
+ }
+ 
+  
+ 
+  

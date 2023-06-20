@@ -1,0 +1,52 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  #climate-info p {
+    margin-bottom: 10px;
+  }
+
+  #suitable-crops {
+    font-weight: bold;
+  }
+  .cls{
+    display: flex;
+    
+  }
+  .cls h2{
+    margin-right: 100px;
+  }

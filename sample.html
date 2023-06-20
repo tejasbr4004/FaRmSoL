@@ -1,0 +1,2242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout_wrapper">
+      <div class="isolate-old-styles"><header id="page-header" class="main-header is-sticky">
+  <nav class="main-col hidden lg:global-grid">
+    <div class="col-span-10 flex items-center">
+      <a href="/" class="mr-6" aria-label="Home">
+        <svg class="w-32 xl:w-64" width="233" height="39" role="img">
+          <use xlink:href="#pv_logo"></use>
+        </svg>
+      </a>
+      <ul class="flex space-x-1">
+          <li>
+            <a href="/" class="header-link relative ">
+                About
+              </a>
+          </li>
+          <li>
+            <a href="/projects" class="header-link relative ">
+                Projects
+              </a>
+          </li>
+          <li>
+            <a href="/team" class="header-link relative ">
+                Team
+              </a>
+          </li>
+          <li>
+            <a href="/blogposts" class="header-link relative ">
+                Blog
+              </a>
+          </li>
+          <li>
+            <a href="/donate" class="header-link relative ">
+                Donate
+                  <svg width="12px" height="12px" class="absolute top-7 right-2 w-3 h-3 text-red fill-current animate__heartBeat animate__infinite animate__slower animate__animated"><use xlink:href="#heart_icon"></use></svg>
+              </a>
+          </li>
+        <li><a href="mailto:mayor@plantvillage.psu.edu" class="header-link whitespace-nowrap" target="_blank">Contact us</a>
+</li>
+        <li>
+          <button data-btn-more="" class="header-link uppercase">More
+            <span class="chevron bottom"></span></button>
+        </li>
+      </ul>
+    </div>
+    <a href="/users/sign_in" class="bg-green hover:bg-yellow-accent-50 h-full pl-3 pb-4 flex flex-col justify-end lg:col-span-2">
+      <div class="text-xs font-semibold">Profile</div>
+      <div class="text-sm font-semibold uppercase flex items-center">
+        <div>Sign In →</div>
+      </div>
+    </a>
+  </nav>
+  <div data-nav-more="" class="nav-more">
+    <nav class="main-col flex flex-col pt-8 pb-24 space-y-8 lg:global-grid lg:py-16 lg:pt-32 lg:space-y-0">
+      <div class="col-start-2 col-span-3 font-semibold">
+        <a href="/" class="text-3xl ">About</a>
+        <ul class="mt-3 space-y-3 text-sm">
+            <li>
+              <a href="/projects" class="">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="/team" class="">
+                Team
+              </a>
+            </li>
+            <li>
+              <a href="/blogposts" class="">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="/donate" class="">
+                Donate
+              </a>
+            </li>
+          <li><a href="mailto:mayor@plantvillage.psu.edu" class="" target="_blank">Contact us</a>
+</li>
+        </ul>
+      </div>
+      <div class="col-span-3 font-semibold">
+        <span class="text-3xl">For Farmers</span>
+        <ul class="mt-3 space-y-3 text-sm">
+            <li>
+              <a href="/plants" class="">
+                Crops
+              </a>
+            </li>
+            <li>
+              <a href="/diseases" class="">
+                Diseases &amp; Pests
+              </a>
+            </li>
+            <li>
+              <a href="/topics" class="">
+                Topics
+              </a>
+            </li>
+            <li>
+              <a href="/posts" class="">
+                Q &amp; A
+              </a>
+            </li>
+            <li>
+              <a href="/video_libraries" class="">
+                Video Library
+              </a>
+            </li>
+        </ul>
+      </div>
+      <div class="col-span-3 font-semibold">
+        <span class="text-3xl">For Researchers</span>
+        <ul class="mt-3 space-y-3 text-sm">
+            <li>
+              <a href="https://stressmap.plantvillage.psu.edu" class="">Stress Map</a>
+            </li>
+            <li>
+              <a href="/panel/analytics/locust_surveys" class="">Locust Map</a>
+            </li>
+        </ul>
+      </div>
+
+      <a href="/users/sign_in" class="inline-block bg-green px-3 py-2 flex flex-col w-40 lg:hidden">
+        <div class="text-xs font-semibold">Register or</div>
+        <div class="text-sm font-semibold uppercase flex items-center">
+          Sign in
+        </div>
+      </a>
+    </nav>
+  </div>
+  <button data-burger="" aria-label="Menu" type="button" class="burger burger--collapse mobile-burger">
+    <span class="burger-box"><span class="burger-inner"></span></span>
+  </button>
+</header>
+</div>
+      <div id="wrap">
+        
+        <div class="popup-overlay" id="loading" style="display:none">
+          <img style="margin-left: 50%; margin-top: 15%;" src="https://plantvillage.psu.edu/assets/loading-080ce2923d30f43862f93c6a71f733d6b33944f8ab6bba851b786e908c5bdf6a.gif">
+        </div>
+        <div class="navbar-separator"></div>
+          <div class="container">
+            <div class="bk-div">
+      <a href="/plants">Go Back</a>
+</div>
+
+<div class="col-md-12 col-sm-12">
+
+
+
+    <div class="alert alert-success" style="display: none;">This page
+      is <a class="alert-link" href="/topics/rice-fr/infos">available in French.</a></div>
+
+  <h1><span>Rice</span></h1>
+
+  <div>
+  </div>
+
+  <div class="content-div">
+    <strong> <span id="content-div">Content</span></strong>
+    <strong> <span id="content-div-title">Content</span></strong>
+    <div class="content-titles">
+      <div>
+
+            <div>
+
+              1. 
+              <a href="#info-Scientific-Clarification" title="Scientific Clarification">Scientific Clarification</a>
+            </div>
+
+            <div>
+
+              2. 
+              <a href="#info-General-Information" title="General Information">General Information</a>
+            </div>
+
+            <div>
+
+              3. 
+              <a href="#info-Rice-Varieties-in-Kenya" title="Rice Varieties in Kenya">Rice Varieties in Kenya</a>
+            </div>
+
+            <div>
+
+              4. 
+              <a href="#info-Climate-Conditions,-Soil,-and-Water-Management" title="Climate Conditions, Soil, and Water Management">Climate Conditions, Soil, and Water Management</a>
+            </div>
+
+            <div>
+
+              5. 
+              <a href="#info-Planting-Procedure" title="Planting Procedure">Planting Procedure</a>
+                <div style="padding-left: 15px">5.0. 
+                  <a href="#info803" title="Seedling production">Seedling production</a></div>
+                <div style="padding-left: 15px">5.1. 
+                  <a href="#info1501" title="Land Preparation">Land Preparation</a></div>
+            </div>
+
+            <div>
+
+              6. 
+              <a href="#info-Seedling-production" title="Seedling production">Seedling production</a>
+            </div>
+
+            <div>
+
+              7. 
+              <a href="#info-Land-Preparation" title="Land Preparation">Land Preparation</a>
+            </div>
+
+          <div>
+            <a href="#diseases" title="Diseases">Diseases</a>
+              <div style="padding-left: 15px"> -
+                <a href="#disease-Bacterial" title="Diseases">Bacterial</a></div>
+              <div style="padding-left: 15px"> -
+                <a href="#disease-Fungal" title="Diseases">Fungal</a></div>
+              <div style="padding-left: 15px"> -
+                <a href="#disease-Viral" title="Diseases">Viral</a></div>
+          </div>
+          <div>
+            <a href="#pests" title="Pests">Pests</a>
+              <div style="padding-left: 15px"> -
+                <a href="#pest-Insects" title="[&quot;Insects&quot;]">Insects</a>
+              </div>
+          </div>
+      </div>
+      <div class="tag-link">
+        <span class="">
+          <a href="/topics/rice">See questions about Rice</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="searched_word">
+    <div style="clear:both"></div>
+    <div id="info-Scientific-Clarification">
+  <h3 class="info ">Scientific Clarification</h3>
+</div>
+
+  <p>The following are the crop details for Rice:</p>
+
+<ul>
+	<li>Scientific name: Oryza sativa</li>
+	<li>Local names: Mchele(husked rice), Mpunga (upland rice)- Swahili</li>
+	<li>Order: Cyperales</li>
+	<li>Family: Poaceae</li>
+	<li>Genus: Oryza</li>
+</ul>
+<br><br>
+
+  <div id="links-524">
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4781/file/default-01ef77c37251f37781cc7e8604b18166.jpg" title="Rice growing terraces in the Philippines
+ " data-gallery="#blueimp-gallery-info-524" data-description="Fotorus on Flickr
+Licensed by Creative Commons
+Attribution-NoDerivs 2.0 Generic
+https://www.flickr.com/photos/fotorus/7457381294/" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4781/file/medium-f5f221c4468a286deb30e313a7a7b696.jpg" alt="7457381294_071e6b3f4d_z.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Rice growing terraces in the Philippines
+ </div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4780/file/default-dd8420eb137c3b8c88e09928e32a1041.jpg" title="Mature Asian rice panicles" data-gallery="#blueimp-gallery-info-524" data-description="International Rice Research Institute (IRRI)
+Licensed by Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/86712369@N00/4859140638" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4780/file/medium-c82fb29b8a77861fc7b36f004e5d709f.jpg" alt="640px-Rice_Plants_(IRRI).jpg">
+        </a>
+        <br>
+        <div class="image_caption">Mature Asian rice panicles</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4782/file/default-aa54b8e34727b655dec0b45c390fea99.jpg" title="Rice terraces in Vietnam" data-gallery="#blueimp-gallery-info-524" data-description="lcrf on Flickr
+Licensed by Creative Commons
+Attribution-NonCommercial-NoDerivs 2.0 Generic
+https://www.flickr.com/photos/lcrf/2824822591" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4782/file/medium-8cb194864d238dac68f2ba70c6e4a6b5.jpg" alt="2824822591_1bdf3957bd_z.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Rice terraces in Vietnam</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4778/file/default-6b94a66ebcb01b98675719507523c598.jpg" title="Asian rice field" data-gallery="#blueimp-gallery-info-524" data-description="潘立傑 LiChieh Pan
+Licensed by Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/plj/14721091274
+" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4778/file/medium-8298aeaaf7654d4e2444cbfa6f158f78.jpg" alt="14721091274_8e685d8a53_z.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Asian rice field</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4779/file/default-33a34149fa1081692c6fff37073d424b.jpg" title="Asian rice with panicles" data-gallery="#blueimp-gallery-info-524" data-description="Cory on Flickr
+Licensed by Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/kimagurenote/15389737028" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4779/file/medium-2f4742380f466569bf6844d3f2840c66.jpg" alt="15389737028_36dfb91046_z.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Asian rice with panicles</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/4777/file/default-31025cc0e039c3823253054651bdc27f.jpg" title="Asian &quot;basmati&quot; rice`" data-gallery="#blueimp-gallery-info-524" data-description="International Rice Research Institute (IRRI)
+Licensed by Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/2198723243" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/4777/file/medium-8b28cc5046ab928a6c64727b39444761.jpg" alt="2198723243_4cfc44415e_z.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Asian "basmati" rice`</div>
+      </div></div>
+  </div>
+
+  <div id="blueimp-gallery-info-524" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-524').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-524 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-General-Information">
+  <h3 class="info ">General Information</h3>
+</div>
+
+  <p>There are two species of cultivated rice in the world, Oryza sativa (Asian rice) and Oryza glaberrima (African rice). Both species are annual grasses (except in the tropics, where the plant can be perennial) that are cultivated for their grain which is considered a staple food in most parts of the world.</p>
+
+<p>Asian and African rice plants are morphologically very similar and can be difficult to tell apart. They have rounded stems (called culms) which are divided into nodes and internodes. The plant leaves are borne on the nodes of the stem and are long and slender with a pronounced midrib.&nbsp;</p>
+
+<p>The plant produces three flowers, two of which are reduced, on a spikelet on the terminal (last) internode of the stem. The rice grain is formed by the ripened ovary of the flower and is between 5 and 12 mm in length. Rice is an annual plant, harvested after one growing season, and can reach a height of between 1 and 1.8 m (3.3– 5.9 ft) depending on the variety.</p>
+
+<p>Rice is grown in four ecosystems, which are broadly defined based on water regimes. The ecosystems are irrigated rain-fed lowland and upland, and flood-prone.</p>
+
+<p>Generally, African rice tends to form smaller, pear-shaped grains with red bran and olive to black seed coat and has several disadvantages compared with its Asian counterpart e.g. seed is easily scattered, the grain is difficult to mill and the crop gives a lower yield. The growing of Asian rice has therefore begun to supersede that of African rice in West Africa. Asian rice originates from China and African rice is believed to have been domesticated in areas around the Niger River in Africa.</p>
+<br><br>
+
+  <div id="links-525">
+  </div>
+
+  <div id="blueimp-gallery-info-525" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-525').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-525 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-Rice-Varieties-in-Kenya">
+  <h3 class="info ">Rice Varieties in Kenya</h3>
+</div>
+
+  <p>"Sindano", highly susceptible to Rice Yellow Mottle Virus (RYMV), and "Basmati 217", highly susceptible to blast, have been grown since the 1960s.</p>
+
+<ul>
+	<li>Basmati 217: Grain yield 4.6 t/ha; very good cooking quality; resistant to RYMW and susceptible to blast.</li>
+	<li>Basmati 370: Grain yield of 5.3 t/ha; very good cooking quality; resistant to RYMW and susceptible to blast.</li>
+	<li>IR 2035-25-2: Grain yield of 5.5 t/ha; good cooking quality; moderately susceptible to RYMW and moderately resistant to blast.</li>
+	<li>IR 2793-80-1: Grain yield of 6.4 t/ha; good cooking quality; susceptible to RYMW.</li>
+	<li>BW 96: Grain yield of 9.0 t/ha; fair cooking quality; susceptible to RYMW and moderately resistant to blast.</li>
+	<li>UP 254: Grain yield of 6.4 t/ha; good cooking quality; moderately susceptible to RYMW and moderately resistant to blast.</li>
+	<li>AD 9246: Grain yield of 5.1 t/ha; good cooking quality; moderately resistant to RYMW and moderately susceptible to blast.</li>
+	<li>IR 19090: Grain yield of 5.8 t/ha; good cooking quality; moderately susceptible to RYMW and moderately resistant to blast.</li>
+</ul>
+
+<p>The upland "NERICA" rice varieties were developed at the Africa Rice Center (AfricaRice) ex-WARDA. They are resistant to blast, RYMV stemborers, and leafminers and are high yielding and doing well from West Africa to Uganda.&nbsp;</p>
+
+<p>In Kenya, they have great potential for medium altitudes with high rainfall or the possibility for irrigation. "NERICA" can be planted as other small grains, but does need irrigation, especially during flowering, and fertilization.</p>
+
+<p>Varieties in Tanzania</p>
+
+<ul>
+	<li>Supa: Optimal production altitude: 0-400 m; grain yield: 1.5-3.5 t/ha; moderately resistant to RYMV and sheath rot.</li>
+	<li>IR 54: Optimal production altitude: 400-600 m; grain yield: 4.0-7.0 t/ha; moderately resistant to bacterial blight and sheath rot.</li>
+	<li>IR 22: Optimal production altitude: 400-1000 m; grain yield: 6.6-8.0 t/ha; days to maturity: 120-13"5; resistant to bacterial blight.</li>
+	<li>Katrin: Optimal production altitude: 400-1000 m; grain yield: 6.6-8.0 t/ha; very low panicle shattering.</li>
+	<li>Dakawa: Optimal production altitude: 400-1000 m; grain yield: 3.5-5.2 t/ha; none-photoperiod sensitive; resistant to lodging except under high N levels; easy to thresh.</li>
+	<li>TXD 85: Optimal production altitude: 0-400 m; grain yield: 4.8-7.0 t/ha; moderately resistant to sheath rot, blast, and RYMV.</li>
+	<li>TXD 88: Optimal production altitude: 0-400 m; grain yield: 2.8-6.5 t/ha; moderately resistant to sheath rot, blast, and RYMV.</li>
+	<li>SARO 5: Optimal production altitude: 0-600 m; grain yield: 4.0-6.5 t/ha; susceptible to RYMV and sheath rot. Adapted to rain-fed lowlands and irrigated ecosystems.</li>
+	<li>Kalalu: Grain yield: 2-3 t/ha; resistant to RYMV and blast.</li>
+	<li>Mwangaza: Grain yield: 2-3 t/ha; resistant to RYMV and blast.</li>
+</ul>
+<br><br>
+
+  <div id="links-526">
+  </div>
+
+  <div id="blueimp-gallery-info-526" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-526').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-526 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-Climate-Conditions,-Soil,-and-Water-Management">
+  <h3 class="info ">Climate Conditions, Soil, and Water Management</h3>
+</div>
+
+  <p>Rice thrives on land that is water saturated or even submerged during part or all of its growth. Optimal temperatures for rice growing are 20 to 37.7°C, and no growth occurs below 10ºC. The optimal pH is between 5 and 7, though rice has been grown in fields with a PH between 3 and 10. Rice will grow in altitudes ranging from 0 to 2500 m above sea level but worldwide is mostly grown on the humid coastal lowlands and deltas. Aquatic rice may require a dependable supply of fresh, slowly moving water, at a temperature of 21 to 29°C. Rain-fed rice requires an average of 800 to 2000 mm of rainfall well distributed over the growing season. If rainfall is less than 1250 mm annually, irrigation is used to make up the deficit. The crop is salt tolerant at some stages of growth; during germination but not seedling stages and has even been grown to reclaim salty soils. Terrain should be level enough to permit flooding, yet sloped enough to drain readily. The soils on which rice can grow are as varied as the climatic regime it tolerates, but ideally, it prefers a friable loam overlying heavy clay, as in many coastal and delta areas.</p>
+<br><br>
+
+  <div id="links-802">
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62284/file/default-bdd5527aa01ec4d72b9f8a2685c47a64.jpg" title="Zinc deficiency (2)" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/9039030138/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62284/file/medium-914be23163f635cc9824c7ee5ec58dea.jpg" alt="9039030138_36786b2a3e_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Zinc deficiency (2)</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62283/file/default-4a761730e7c065cf1493263a089f2a1a.jpg" title="Zinc deficiency (1)" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923711664/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62283/file/medium-5a49d2b8f7694981996d4128a676b317.jpg" alt="11923711664_683998b03e_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Zinc deficiency (1)</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62281/file/default-7afa200f7eeb8f1dc3d4776b29db4573.jpg" title="Nitrogen deficiency (2)" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/9039007920/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62281/file/medium-11cf64cd68186bb764861c179d2c40f9.jpg" alt="9039007920_7ff1125de5_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Nitrogen deficiency (2)</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62277/file/default-b5e2c669e5d247f1148ca93cc1bb4c82.jpg" title="Plants showing Phosphorous deficiency" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6866831853/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62277/file/medium-c717fc4997da5a2894d9179825ceb640.jpg" alt="6866831853_274fdf3f38_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Plants showing Phosphorous deficiency</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62279/file/default-3585a179cca74563e8bd321a11ee9494.jpg" title="Symptoms of potassium deficiency (3)" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6866833963/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62279/file/medium-352f3fb19dae8e5b5759a51514b88b61.jpg" alt="6866833963_18ae792202_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Symptoms of potassium deficiency (3)</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62280/file/default-f64b98c12d591e3ecde0ee1387f5a1c0.jpg" title="Nitrogen deficiency" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923531323/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62280/file/medium-ed2f5a0bc12e9b76b7d0a35f591243cd.jpg" alt="11923531323_5e91b6d129_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Nitrogen deficiency</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62278/file/default-a1f1d644e6c2261f101da5ca8efee6ce.jpg" title="Symptoms of potassium deficiency (2)" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6866834177/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62278/file/medium-af6ec4b04c94eddb85ea7a77d90931e0.jpg" alt="6866834177_881611c1d3_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Symptoms of potassium deficiency (2)</div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62276/file/default-c89b0072ab0c938d484f1f893a386e83.jpg" title="Symptoms of potassium deficiency " data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6866834283/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62276/file/medium-6a748bde3d021b0ac3463298039d1525.jpg" alt="6866834283_09b7796342_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Symptoms of potassium deficiency </div>
+      </div></div>
+      <div class="medium-images"><div>
+        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62275/file/default-f26767980836fafae6a6ba644e1271b0.jpg" title="Severe calcium deficit leaves" data-gallery="#blueimp-gallery-info-802" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6866848867/in/photolist" target="_blank">
+          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62275/file/medium-498704aed38addcd93d25145c33bc41d.jpg" alt="6866848867_e4d971e415_o.jpg">
+        </a>
+        <br>
+        <div class="image_caption">Severe calcium deficit leaves</div>
+      </div></div>
+  </div>
+
+  <div id="blueimp-gallery-info-802" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-802').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-802 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-Planting-Procedure">
+  <h3 class="info ">Planting Procedure</h3>
+</div>
+
+  <p>Rice is always propagated by seed, which may be either broadcast or drilled directly in the field, or the seedlings may be grown in nurseries and transplanted. Direct seeding is done in dry or puddled soil. In puddled soil, the (pre-germinated) seeds are broadcast. The water level is kept at 0-5 cm under tropical conditions, but higher in temperate areas.</p>
+
+<p>In dry soil, the seeds are sown after land preparation and covered lightly with soil by a tooth harrow. Germination occurs after heavy continuous rains. In upland rice cultivation the land is prepared in the dry weather and the rice is broadcast or dibbled in with the advent of the rains. Floating rice is cultivated in areas subject to deep flooding and the seed is sown either dry or wet.</p>
+<br><br>
+
+  <div id="links-527">
+  </div>
+
+  <div id="blueimp-gallery-info-527" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-527').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-527 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-Seedling-production">
+  <h3 class="info child">Seedling production</h3>
+</div>
+
+  <p>The following are steps for producing healthy seedlings:</p>
+
+<ol>
+	<li>Seed selection: Select plump and healthy seeds.&nbsp;</li>
+	<li>Seed pre-treatment: This is practiced to secure better germination of seeds and better growth of seedlings. It involves:</li>
+</ol>
+
+<ul>
+	<li>Seed disinfection: Hot water treatment is effective in destroying the nematode Aphelenchoides besseyi, which causes white tip disease.</li>
+	<li>Seed soaking: To supply the required moisture for germination, shorten the germination period and reduce seed rotting. During the soaking period change water to remove poisonous substances and allow entry of fresh air.</li>
+	<li>Pre-sprouting: The seeds are drained and covered with grass for 24 to 48 hours. This ensures uniform seed germination, avoids sprouting, and allows air circulation for germination.</li>
+</ul>
+
+<ol start="3">
+	<li>Sowing: Sowing 80 to 100 g/m² is normal practice. Broadcast seed uniformly. Do not submerge the nursery bed after sowing. Use a seed rate of about 20 kg/acre (50 kg/ha).</li>
+	<li>Seedbed preparation (nursery): Plough at least 2 weeks before sowing and flooding. Puddle 1 week before sowing and prepare a raised nursery bed. Drain the nursery bed the day before sowing to stabilize the surface of the soil. If the soil covering the nursery bed is too soft, sown grains are buried in the soil resulting in a poor establishment. For 1 ha of transplanted rice, a nursery of about 350 m² is required. Irrigate a few days after sowing so that the surface is kept moist, and as the seedlings emerge keep submerged conditions with water controlled at 1 to 3 cm according to the growth of the seedling. Raise the water level to 10 cm one day before uprooting to ease the washing off of soil that sticks to roots. This will make transplanting easy.</li>
+</ol>
+<br><br>
+
+  <div id="links-803">
+  </div>
+
+  <div id="blueimp-gallery-info-803" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-803').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-803 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+<div id="info-Land-Preparation">
+  <h3 class="info child">Land Preparation</h3>
+</div>
+
+  <p>Preparation of land varies, even within the lowland rainfed-rice areas. Land can be prepared in the following ways:</p>
+
+<ul>
+	<li>Wetland tillage: This method is common in most tropical Asian countries. It consists of land soaking, in which water is absorbed until the soil is saturated. Ploughing, which is the initial breaking and turning over of the soil to a depth of 10-20 cm, is done using a wooden or light iron plough drawn by 1-2 buffaloes or oxen, preferably when there is 7.5-10 cm of water on the land and harrowing during which big clods of soil are broken and puddled with water. Puddling is important because it reduces moisture loss by percolation, better weed control, and ease of transplanting. The low redox potential of submerged puddled soil helps to conserve water-soluble nutrients, favors the accumulation of ammonium, increases biological nitrogen fixation, and increases the availability of phosphorus, silicon, iron, and manganese.</li>
+	<li>Dryland tillage: The land is prepared in the dry weather and the rice is sown just before the rains begin. This method makes it possible to have initial crop growth from early monsoon rains. Labor requirements for seed-bed preparation, land preparation, and transplanting are reduced and soil structure is better for stand establishment of the following non-rice crop. This method has its disadvantages: weed control is a major problem; percolation losses are high, making the chances of drought stress higher; and fertilizer requirements are often higher. To hold the water on the land and maintain it at the required depth, bunding and leveling are essential. The land is divided by contour bunds into fields, the size and shape of which vary with the topography. The bunds are usually made of clay, mud, and weeds, with controlled openings for the ingress and egress of water.</li>
+</ul>
+<br><br>
+
+  <div id="links-1501">
+  </div>
+
+  <div id="blueimp-gallery-info-1501" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script>
+    $('#blueimp-gallery-info-1501').on('slide', function (event, index, slide) {
+      $(this).children('.description').text($('#links-1501 a').eq(index).data('description'));
+    });
+  </script>
+<br>
+
+<div style="clear:both"></div>
+
+
+    <div style="clear:both"></div>
+  </div>
+
+    <div style="padding-bottom:30px;">
+      <h3 class="info">Common Pests and Diseases</h3>
+        <div id="diseases"><h3 class="info"><span class="translation_missing" title="translation missing: en.diseases">Diseases</span></h3></div>
+          <div>
+            <div id="disease-Bacterial" style="padding-bottom:10px;">
+              <h4>Category : Bacterial</h4></div>
+              <h4>
+                  Bacterial leaf streak
+                <span style="font-weight:400;font-size:80%;"><i>Xanthomonas oryzae</i></span>
+              </h4>
+                <div id="links-disease-1722">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2158/file/default-309e3765a7d302efb33ca2f740a96e67.jpg" title="Advanced leaf streak symptoms in rice field" data-gallery="#blueimp-gallery-disease-1722" data-description="International Rice Research Institute, Los Banos Archive, International Rice Research Institute, Los Banos, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0 
+http://www.ipmimages.org/browse/detail.cfm?imgnum=1949007" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2158/file/default-309e3765a7d302efb33ca2f740a96e67.jpg" alt="1949007-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Advanced leaf streak symptoms in rice field</div>
+                      </div>
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2155/file/default-6b07091407a81e983d3529736d78639a.jpg" title="Initial symptoms of bacterial leaf streak on rice" data-gallery="#blueimp-gallery-disease-1722" data-description="T.W. Mew, International Rice Research Institute, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0 
+http://www.ipmimages.org/browse/detail.cfm?imgnum=0162040" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2155/file/default-6b07091407a81e983d3529736d78639a.jpg" alt="0162040-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Initial symptoms of bacterial leaf streak on rice</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2157/file/default-52ba3b6fa97a19a8115c72c49b34f958.jpg" title="Bacterial leaf streak " data-gallery="  #blueimp-gallery-disease-1722" data-description="Donald Groth, Louisiana State University AgCenter, Bugwood.org 
+Licensed by Creative Commons
+Attribution 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5390469" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2157/file/default-52ba3b6fa97a19a8115c72c49b34f958.jpg" alt="5390469-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bacterial leaf streak </div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2156/file/default-8c53c05e89ffac55d9a768870a0ee117.jpg" title="Severely infected rice leaf" data-gallery="#blueimp-gallery-disease-1722" data-description="T.W. Mew, International Rice Research Institute, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0 
+http://www.ipmimages.org/browse/detail.cfm?imgnum=0162041" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2156/file/default-8c53c05e89ffac55d9a768870a0ee117.jpg" alt="0162041-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Severely infected rice leaf</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-1722" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-1722').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-1722 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Small, water-soaked streaks between leaf veins which are initially dark green and then turn translucent; streaks grow larger, coalesce and turn light brown in color; tiny beads of yellow colored bacterial exudate are common on the surface of the streaks; leaves turn brown and then gray-white in color before they die</div>
+              <h5>Cause</h5>
+              <div class="cause">Bacterium</div>
+              <h5>Comments</h5>
+              <div class="comments">Bacteria survive on infected seed and straw; bacteria may enter the plant through wounds; bacterial exudate can be spread in irrigation water; emergence of the disease is favored by high humidity and high temperatures; bacterial leaf streak is widespread in tropical Asia and West Africa</div>
+                <div class="management"><h5>Management</h5>
+                  Control of bacterial leaf streak is dependent on the use of resistant rice varieties and on planting of treated seed</div>
+              <h4>
+                  Leaf scald
+                <span style="font-weight:400;font-size:80%;"><i>Microdochium oryzae</i></span>
+              </h4>
+              <h5>Symptoms</h5>
+              <div class="symptoms">As name suggest we will see scalded appearance on leaves. The lesion is marked with different zone from alternating light tan and dark brown from leaf tips or edges. As the leaves mature the lesion is with light brown halos. Margins and leaf tips are translucent.</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">The symptoms may vary depends on cultivar, growth stage and plant density. The disease is severe in Latin America and West Africa.</div>
+                <div class="management"><h5>Management</h5>
+                  Grow resistant varieties. Treat the seeds with suitable fungicide. Apply only recommended quantity of nitrogen fertilizer in split dose.</div>
+              <h4>
+                  Rice Bacterial blight
+                <span style="font-weight:400;font-size:80%;"><i>Xanthomonas oryzae pv. oryzae</i></span>
+              </h4>
+                <div id="links-disease-765">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62249/file/default-5e92a1c0dd9b31c69855b1f0def811fd.jpg" title="Bacterial blight infected leaf" data-gallery="#blueimp-gallery-disease-765" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/5575804225/in/album-72157626397556206/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62249/file/default-5e92a1c0dd9b31c69855b1f0def811fd.jpg" alt="5575804225_2e2c7f2292_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bacterial blight infected leaf</div>
+                      </div>
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62247/file/default-5aa86967084fa337cc8b931a4e1319b6.jpg" title="Bacterial  blight infected field" data-gallery="#blueimp-gallery-disease-765" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/12826535534/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62247/file/default-5aa86967084fa337cc8b931a4e1319b6.jpg" alt="12826535534_ea93e45e80_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bacterial  blight infected field</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62248/file/default-87b596335f7e0d0953a46aab5f6ff67d.jpg" title="Bacterial leaf blight infected field and leaf" data-gallery="  #blueimp-gallery-disease-765" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923635054/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62248/file/default-87b596335f7e0d0953a46aab5f6ff67d.jpg" alt="11923635054_7845875c4a_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bacterial leaf blight infected field and leaf</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62246/file/default-b9cc4d93eccdeb26e7687ee0114bac8d.jpg" title="Bacterial blight infected leaves" data-gallery="#blueimp-gallery-disease-765" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6233347671/in/photolist
+" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62246/file/default-b9cc4d93eccdeb26e7687ee0114bac8d.jpg" alt="6233347671_fbd28a2662_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bacterial blight infected leaves</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-765" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-765').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-765 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms"><p>Water-soaked stripes on leaf blades; yellow or white stripes on leaf blades; leaves appear grayish in color; plants wilting and rolling up; leaves turning yellow; stunted plants; plant death; youngest leaf on plant turning yellow</p>
+</div>
+              <h5>Cause</h5>
+              <div class="cause"><p>Bacterium</p>
+</div>
+              <h5>Comments</h5>
+              <div class="comments"><p>One of the most important diseases of rice; disease found in tropical and temperate regions; greatest economic impact in Asia</p>
+</div>
+                <div class="management"><h5>Management</h5>
+                  <p>Bacterial blight can be effectively controlled by planting resistant rice varieties; avoid excessive nitrogen fertilization; plow stubble and straw into soil after harvest</p>
+</div>
+          </div>
+          <script>
+              $("#diseases").insertBefore($('.info[id^="info"]').last());
+          </script>
+          <div>
+            <div id="disease-Fungal" style="padding-bottom:10px;">
+              <h4>Category : Fungal</h4></div>
+              <h4>
+                  Bakanae
+                <span style="font-weight:400;font-size:80%;"><i>Fusarium moniliforme</i></span>
+              </h4>
+                <div id="links-disease-767">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2154/file/default-d0076e955130616bdf36047414edef50.jpg" title="Bakanae infected plant in rice field" data-gallery="#blueimp-gallery-disease-767" data-description="O.P. Sharma, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0 
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5436333" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2154/file/default-d0076e955130616bdf36047414edef50.jpg" alt="5436333-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Bakanae infected plant in rice field</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-disease-767" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-767').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-767 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Seedlings are elongated, slender and pale; seedlings are stunted and chlorotic; death of seedlings; abnormal elongation of older plants which often makes them visible as they grow taller than uninfected plants in the field; sterile plants which do not produce panicles or produce empty panicles</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Disease transmitted through infected seed; disease emergence favored by high temperatures</div>
+                <div class="management"><h5>Management</h5>
+                  Treating seeds with appropriate fungicides prior to planting can be very effective at controlling the disease; less susceptible rice varieties should be grown in areas where fungicide-treated seed is not available</div>
+              <h4>
+                  Brown spot
+                <span style="font-weight:400;font-size:80%;"><i>Cochliobolus miyabeanus</i></span>
+              </h4>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Circular, brown lesions on seedling; distorted primary and/or secondary leaves on seedlings; black discoloration of roots; death of seedlings; circular or oval lesions with gray center and reddish-brown margin on older plants; death of large areas of leaves; brown or black spots on grain; reduced number of grains; reduced kernel weight</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Occurs wherever rice is grown; fungus overwinters on plant debris; disease emergence favored by water on surfaces of plant</div>
+                <div class="management"><h5>Management</h5>
+                  Ensure plants are provided with correct nutrients and avoid water stress; chemical seed treatments are effective at reducing the incidence of the disease</div>
+              <h4>
+                  False smut
+                <span style="font-weight:400;font-size:80%;"><i>Ustilaginoidea virens</i></span>
+              </h4>
+                <div id="links-disease-2033">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62144/file/default-aa495fb7aed6c6590f960c0d28fe34d3.jpg" title="Individual grain transformed into smut" data-gallery="#blueimp-gallery-disease-2033" data-description="Dr. Yulin Jia 
+Dale Bumpers National Rice Research Center 
+Research Plant Pathologist
+yulin.jia@ars.usda.gov 
+Phone: (870) 672-6107 
+Fax: (870) 673-7581
+2890 HWY 130 E 
+STUTTGART, AR, 72160" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62144/file/default-aa495fb7aed6c6590f960c0d28fe34d3.jpg" alt="rice_false_smut__2014_June_20-4.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Individual grain transformed into smut</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62145/file/default-04097391e59bef724daec5e4c5139aae.jpg" title="Cross-section of individual smut grain" data-gallery="  #blueimp-gallery-disease-2033" data-description="Dr. Yulin Jia 
+Dale Bumpers National Rice Research Center 
+Research Plant Pathologist
+yulin.jia@ars.usda.gov 
+Phone: (870) 672-6107 
+Fax: (870) 673-7581
+2890 HWY 130 E 
+STUTTGART, AR, 72160" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62145/file/default-04097391e59bef724daec5e4c5139aae.jpg" alt="smut_dissection-2.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Cross-section of individual smut grain</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62143/file/default-5e26355aedd3390889d307a3513ff22e.jpg" title="False Smut" data-gallery="#blueimp-gallery-disease-2033" data-description="Dr. Yulin Jia 
+Dale Bumpers National Rice Research Center 
+Research Plant Pathologist
+yulin.jia@ars.usda.gov 
+Phone: (870) 672-6107 
+Fax: (870) 673-7581
+2890 HWY 130 E 
+STUTTGART, AR, 72160" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62143/file/default-5e26355aedd3390889d307a3513ff22e.jpg" alt="false_smut-2.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">False Smut</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-2033" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-2033').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-2033 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">The pathogen infect the rice plant during flowering stage and causes chalkiness of grain. The individual grains were covered with orange fungal mass in the beginning, later turns into greenish velvet color during sporulation stage and finally into charcoal black during spore maturation stage. It infect only few grains in spikelet. Recorded disease loss up to 75% in severe incidence. It also reduces market value of rice.</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">It is seed born disease and may also affect seed germination.</div>
+                <div class="management"><h5>Management</h5>
+                  Treat seeds with hot water (52 C) for 10 min. Roughing the infected plants from field and from harvested grains. Keep the rice field and surrounding clean. Use resistant varieties. Maintain humidity in field by alternate wetting and drying.</div>
+              <h4>
+                  Narrow leaf spot (Cercospora leaf spot)
+                <span style="font-weight:400;font-size:80%;"><i>Cercospora oryzae</i></span>
+              </h4>
+                <div id="links-disease-769">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62251/file/default-db26399801f3b5ca919e5bbfcddc5135.jpg" title="Narrow brown leaf spot infected leaves" data-gallery="#blueimp-gallery-disease-769" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial- ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/11924017806/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62251/file/default-db26399801f3b5ca919e5bbfcddc5135.jpg" alt="11924017806_4fab25fd31_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Narrow brown leaf spot infected leaves</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-disease-769" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-769').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-769 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Short, elliptical or linear brown lesions on leaves; necrosis of leaves; blotchy pattern on leaves; premature ripening of kernels</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Disease occurs in major rice growing regions in tropical and sub-tropical Asia, Africa, Australia, North America, South America and Central America</div>
+                <div class="management"><h5>Management</h5>
+                  There are no chemical controls currently recommended for the treatment of the disease; treating seeds with hot water or appropriate fungicides prior to planting can reduce the incidence of the disease</div>
+              <h4>
+                  Rice blast
+                <span style="font-weight:400;font-size:80%;"><i>Magnaporthe grisea</i></span>
+              </h4>
+                <div id="links-disease-764">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62285/file/default-1ef5ed8a77e4421cf6c936c6b5cab346.jpg" title="Rice blast" data-gallery="#blueimp-gallery-disease-764" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0
+https://www.flickr.com/photos/ricephotos/5575809711/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62285/file/default-1ef5ed8a77e4421cf6c936c6b5cab346.jpg" alt="5575809711_cc1a1c9ec2_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice blast</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/3617/file/default-75329e64f22ee027cd1658b3e88e7470.jpg" title="Blast symptoms" data-gallery="  #blueimp-gallery-disease-764" data-description="Donald Groth - USDA Forest Service
+Licensed by Creative Commons
+Attribution 3.0
+http://www.forestryimages.org/browse/detail.cfm?imgnum=5390481" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/3617/file/default-75329e64f22ee027cd1658b3e88e7470.jpg" alt="Rice_blast_symptoms.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Blast symptoms</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2153/file/default-3f14b34d074ef21aabf9e46a4a0f6a61.jpg" title="Blast symptoms" data-gallery="#blueimp-gallery-disease-764" data-description="O.P. Sharma, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0 
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5439530" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2153/file/default-3f14b34d074ef21aabf9e46a4a0f6a61.jpg" alt="5439530-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Blast symptoms</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-764" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-764').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-764 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Lesions on all parts of shoot; white to green or gray diamond-shaped lesions with dark green borders; death of leaf blades; black necrotic patches on culm; rotting panicles</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Most important disease of rice worldwide; causes most damage in areas of intense cultivation; disease emergence favors high soil nitrogen content</div>
+                <div class="management"><h5>Management</h5>
+                  If disease is not endemic to the region, blast can be controlled by planting resistant rice varieties; avoid over-fertilizing crop with nitrogen as this increases the plant's susceptibility to the disease; utilize good water management to ensure plants do not suffer from drought stress; disease can be effectively controlled by the application of appropriate systemic fungicides, where available</div>
+              <h4>
+                  Sheath blight
+                <span style="font-weight:400;font-size:80%;"><i>Rhizoctonia solani</i></span>
+              </h4>
+                <div id="links-disease-763">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2151/file/default-d9f488d7d8cdaec61e8f09b3e19d33e2.jpg" title="Sheath blight symptoms" data-gallery="#blueimp-gallery-disease-763" data-description="Donald Groth, Louisiana State University AgCenter, Bugwood.org
+Licensed by Creative Commons
+Attribution 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5390546" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2151/file/default-d9f488d7d8cdaec61e8f09b3e19d33e2.jpg" alt="5390546-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Sheath blight symptoms</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2152/file/default-320d3171a7b5be4bb374f21a76860e1d.jpg" title="Water-soaked initial sheath blight lesion" data-gallery="  #blueimp-gallery-disease-763" data-description="Donald Groth, Louisiana State University AgCenter, Bugwood.org
+Licensed by Creative Commons
+Attribution 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5390542" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2152/file/default-320d3171a7b5be4bb374f21a76860e1d.jpg" alt="5390542-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Water-soaked initial sheath blight lesion</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/2150/file/default-50a26738599b09036bfb85f44d649212.jpg" title="Lesion on rice leaf sheath" data-gallery="#blueimp-gallery-disease-763" data-description="Yuan-Min Shen, Taichung District Agricultural Research and Extension Station, Bugwood.org 
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=5408854" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/2150/file/default-50a26738599b09036bfb85f44d649212.jpg" alt="5408854-SMPT.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Lesion on rice leaf sheath</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-763" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-763').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-763 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Circular, oblong or elliptical, green to gray water-soaked spots on leaf sheaths; lesions with pale green or white center and purple-brown margin; lesions covering leaf sheaths and stems; poorly filled grains</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Occurs in all areas where rice is grown; second only importance to rice blast; most damaging in intensive rice production; spreads rapidly via irrigation</div>
+                <div class="management"><h5>Management</h5>
+                  Avoid overfertilizing plants as excessive nitrogen application has been shown to increase susceptibility to the disease; applications of foliar fungicides may be required; two applications are recommended and should be timed so that the first application is made between the early internode elongation and the second application made on emerging panicles 10-14 days later</div>
+              <h4>
+                  Stem rot
+                <span style="font-weight:400;font-size:80%;"><i>Magnaporthe salvinii</i></span>
+              </h4>
+                <div id="links-disease-1723">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62268/file/default-77752377d2d59faded9334ef1f5bbfd6.jpg" title="Stem rot infected plants" data-gallery="#blueimp-gallery-disease-1723" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923416903/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62268/file/default-77752377d2d59faded9334ef1f5bbfd6.jpg" alt="11923416903_64a481973d_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Stem rot infected plants</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-disease-1723" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-1723').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-1723 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Symptoms generally begin to appear after the mid tillering stage; black lesions appear on outer leaf sheath at the water-line; lesions expand and begin to infect inner leaf sheaths and culm begins to rot; infections which reach the culm can leaf to lodging of plants, unfilled panicles and death of tillers</div>
+              <h5>Cause</h5>
+              <div class="cause">Fungus</div>
+              <h5>Comments</h5>
+              <div class="comments">Fungus survives in crop debris in soil after harvest; fruiting bodies are carried to the surface when fields are flooded where they then infect leaf sheaths at the water line</div>
+                <div class="management"><h5>Management</h5>
+                  Bury crop residue deeply in the soil after harvest; avoid excessive nitrogen fertilization; plant less susceptible rice varieties</div>
+          </div>
+          <script>
+              $("#diseases").insertBefore($('.info[id^="info"]').last());
+          </script>
+          <div>
+            <div id="disease-Viral" style="padding-bottom:10px;">
+              <h4>Category : Viral</h4></div>
+              <h4>
+                  Grassy stunt
+                <span style="font-weight:400;font-size:80%;">Rice grassy stunt virus (RGSV)</span>
+              </h4>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Stunted plants; short, narrow pale green or yellow leaves; mottled or striped pattern on newly unfolded leaves; irregular dark brown spots on leaves; few or no panicles produced; </div>
+              <h5>Cause</h5>
+              <div class="cause">Virus</div>
+              <h5>Comments</h5>
+              <div class="comments">Transmitted by leaf hoppers; disease widespread in rice growing regions of South and Southeast Asia, southern China, southern Japan and Taiwan</div>
+                <div class="management"><h5>Management</h5>
+                  Several varieties of rice resistant to the leaf hopper vectors have been developed but the insects have overcome the resistance in several countries; applications of appropriate insecticides can help to reduce populations of vectors in temperate regions</div>
+              <h4>
+                  Tungro
+                <span style="font-weight:400;font-size:80%;">Rice tungro bacilliform virus (RTBV)</span>
+              </h4>
+                <div id="links-disease-1724">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62266/file/default-d4931535a7b821bd5734840d7b7efab0.jpg" title="Tungro virus infected field
+" data-gallery="#blueimp-gallery-disease-1724" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923392463/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62266/file/default-d4931535a7b821bd5734840d7b7efab0.jpg" alt="11923392463_9abbc3ca81_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Tungro virus infected field
+</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62265/file/default-f5e0c17419297618205df40a80b321c7.jpg" title="Tungro virus infected leaves" data-gallery="  #blueimp-gallery-disease-1724" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923583704/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62265/file/default-f5e0c17419297618205df40a80b321c7.jpg" alt="11923583704_ec39929898_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Tungro virus infected leaves</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62267/file/default-cb8cdcb7669456ee3e91d5abf647e647.jpg" title="Tungro virus infected plant" data-gallery="#blueimp-gallery-disease-1724" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6233306575/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62267/file/default-cb8cdcb7669456ee3e91d5abf647e647.jpg" alt="6233306575_e582e20591_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Tungro virus infected plant</div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-disease-1724" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-disease-1724').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-disease-1724 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Plants are stunted with a yellow-orange discoloration; plants may have a reduced number of tillers and rust colored spots on leaves; leaves may be mottled, striped or exhibit interveinal necrosis</div>
+              <h5>Cause</h5>
+              <div class="cause">Virus</div>
+              <h5>Comments</h5>
+              <div class="comments">Disease is the most severely damaging virus of rice in South and Southeast Asia; virus is transmitted by leafhoppers</div>
+                <div class="management"><h5>Management</h5>
+                  Rice varieties resistant to tungro virus have been developed and control the disease successfully; intense cultivation has led to the breakdown of the resistance by some virulent leafhopper strains; in Indonesia, the disease is successfully controlled by scheduling planting to obtain synchronous development and practicing crop rotation with resistant varieties</div>
+          </div>
+          <script>
+              $("#diseases").insertBefore($('.info[id^="info"]').last());
+          </script>
+    </div>
+    <div style="padding-bottom:30px;">
+        <div id="pests"><h3 class="info"><span class="translation_missing" title="translation missing: en.pests">Pests</span></h3></div>
+          <div>
+            <div id="pest-Insects" style="padding-bottom:10px;">
+              <h4>Category : Insects</h4></div>
+              <h4>
+                  Leafhoppers &amp; planthoppers
+                <span style="font-weight:400;font-size:80%;"><i>Nephotettix</i> spp.<br>
+<i>Recilia dorsalis<br>
+Nilaparvata lugens<br>
+Laodelphax striatellus<br>
+Sogatella furcifera</i></span>
+              </h4>
+                <div id="links-pest-1726">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62245/file/default-16b472c30754225d4416d1e18c23830a.jpg" title="Green Leafhoppers 1. Nephotettix virescens  2. Nephotettix nigropictus 3. Nephotettix malayanus Ishihara" data-gallery="#blueimp-gallery-pest-1726" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial 2.0 Generic 
+https://www.flickr.com/photos/ricephotos/6676381851/in/photolist
+" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62245/file/default-16b472c30754225d4416d1e18c23830a.jpg" alt="6676381851_b9f733eabb_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Green Leafhoppers 1. Nephotettix virescens  2. Nephotettix nigropictus 3. Nephotettix malayanus Ishihara</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62244/file/default-ad9d5f4a1906ea1578928962dd2685ed.jpg" title="a) Nilaparvata lugens male, b) Nilaparvata lugens female, c) Sogatella furcifera male, d) S. furcifera female, e) Tagosodes orizicolus male, f) T. orizicolus female,
+g) T. cubanus, h) Nephotettix virescens, i) Recilia dorsalis." data-gallery="  #blueimp-gallery-pest-1726" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-NonCommercial 2.0 Generic 
+https://www.flickr.com/photos/ricephotos/6811478326/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62244/file/default-ad9d5f4a1906ea1578928962dd2685ed.jpg" alt="6811478326_2872ffb3ac_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">a) Nilaparvata lugens male, b) Nilaparvata lugens female, c) Sogatella furcifera male, d) S. furcifera female, e) Tagosodes orizicolus male, f) T. orizicolus female,
+g) T. cubanus, h) Nephotettix virescens, i) Recilia dorsalis.</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-1726" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-1726').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-1726 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Plants may show no symptoms of leafhopper of planthopper damage; feeding punctures can leave the plants susceptible to bacterial or fungal infections; insects transmit many rice viruses; if infestations is severe, insects may cause plant to completely dry out; adults insects are pale green or brown winged insects with piercing-sucking mouthparts</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">Leaf and planthoppers transmit many rice viruses, including grassy stunt and tungro virus</div>
+                <div class="management"><h5>Management</h5>
+                  Rotating crop for a period of one year is an effective and economical method of controlling hopper numbers; natural enemies and predators are often very successful at controlling hoppers and should be conserved by avoiding inappropriate use of insecticides which can damage their populations; planting resistant varieties is a very effective control method; chemical control with an appropriate insecticide may be necessary but should only be applied if the insects have reached an economic threshold</div>
+              <h4>
+                  Mole cricket
+                <span style="font-weight:400;font-size:80%;"><i>Gryllotalpa orientalis</i></span>
+              </h4>
+                <div id="links-pest-2038">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62250/file/default-e940f48b1e893a090014a5e9a36a6932.jpg" title="Mole cricket" data-gallery="#blueimp-gallery-pest-2038" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923643524/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62250/file/default-e940f48b1e893a090014a5e9a36a6932.jpg" alt="11923643524_450c4dd713_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Mole cricket</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-2038" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-2038').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-2038 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">The insect is very destructive because it feeds on seeds, tillers of mature plants and roots. It mainly cut the tillers at ground level and causes gap in rice field. Usually the symptoms appear in patches.</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">We can see burrows of insect at sides of rice field and usually burrows will have heap of soil at entrance.</div>
+                <div class="management"><h5>Management</h5>
+                  Use resistant varieties. Level the field properly and irrigate every 3-4 days after planting. Collect and kill the insects during land preparation. Avoid nurseries with raised bed to reduce cricket infestation during seedling stage. Improve biocontrol agents in field. If damage is large use food bait (commonly rice bran) mixed with insecticide and place along borders.</div>
+              <h4>
+                  Rice bug
+                <span style="font-weight:400;font-size:80%;"><i>Leptocorisa oratorius F. and Leptocorisa acuta Thunberg</i></span>
+              </h4>
+                <div id="links-pest-2039">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62256/file/default-c4edd0be392c2594c7878844dd2c0ee9.jpg" title="Rice bug infested grains" data-gallery="#blueimp-gallery-pest-2039" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/6676413145/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62256/file/default-c4edd0be392c2594c7878844dd2c0ee9.jpg" alt="6676413145_42896dfeb3_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice bug infested grains</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62252/file/default-5fe8418dc42e86f8de04556a57c333bf.jpg" title="Rice bug attacking spikelet" data-gallery="  #blueimp-gallery-pest-2039" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/6957592611/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62252/file/default-5fe8418dc42e86f8de04556a57c333bf.jpg" alt="6957592611_5aac087444_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice bug attacking spikelet</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-2039" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-2039').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-2039 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">The insect attacks during spikelet stage of rice crop. Both nymphs and adults suck the content out of grains from pre-flowering spikelets to soft dough stage. This leads to unfilled, empty and discolored grains.</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">If the infestation is severe it may cause yield loss up to 30%.</div>
+                <div class="management"><h5>Management</h5>
+                  Keep the field and surrounding area free from weeds which serves as alternative host for insect during non cropping season. Equal distribution of fertilizers and water in rice field to encourage even crop growth. Collect and kill insects manually by using net during early morning and late after noon. Encourage biological control agents.</div>
+              <h4>
+                  Rice case worm
+                <span style="font-weight:400;font-size:80%;"><i>Paraponyx stagnalis Stagnalis </i>(Lepidoptera : Pyralidae)<br>
+<i>Nymphula depunctalis (Guenee)</i></span>
+              </h4>
+                <div id="links-pest-2035">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62260/file/default-94d292f27e7ddc4694326b461589c912.jpg" title="Rice caseworm
+Nymphula depunctalis (Guenee)" data-gallery="#blueimp-gallery-pest-2035" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6957594179/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62260/file/default-94d292f27e7ddc4694326b461589c912.jpg" alt="6957594179_5f6defc51c_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice caseworm
+Nymphula depunctalis (Guenee)</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-2035" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-2035').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-2035 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Case worm larvae scraps chlorophyll from leaves. Another important symptom is the larvae cuts off leaf tips and make cylindrical tubes around them. In infected field you can see cylindrical tubes attached to plants or floating on water surface.</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">The damaged leaf tissue looks like ladder.</div>
+                <div class="management"><h5>Management</h5>
+                  Drain water to remove floating larvae from field. Follow proper cultivation practices like nitrogen application and spacing. Encourage biological control agents like snails, spiders, lady bird beetles, dragon flies in rice field.</div>
+              <h4>
+                  Rice gall midge
+                <span style="font-weight:400;font-size:80%;"><i>Orseolia oryzae</i></span>
+              </h4>
+                <div id="links-pest-2037">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62255/file/default-1e4bbe2ae450d66797dace83821bb42f.jpg" title="Asian rice gall midge adult and eggs" data-gallery="#blueimp-gallery-pest-2037" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike 2.0 Generic
+https://www.flickr.com/photos/ricephotos/6676441559/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62255/file/default-1e4bbe2ae450d66797dace83821bb42f.jpg" alt="6676441559_99c9df0741_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Asian rice gall midge adult and eggs</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-2037" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-2037').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-2037 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Gall midge maggot bore into bud or stalk of rice plant and feeds on internal content which leads to formation of tubular gall at the base of the tillers. This leads to elongation of leaf sheath which is commonly called as silver shoot or onion shoot. The leaves will be wilted, deformed and curled up.</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">It is common during tillering stage of rice crop.</div>
+                <div class="management"><h5>Management</h5>
+                  Grow available gall midge resistant cultivars. Follow proper cultural practices like crop rotation, ploughing the ratoon crop and other alternative hosts, planting early etc. Use light traps to attract adult flies and kill them. Conserve biocontrol agents in rice field.</div>
+              <h4>
+                  Rice mealy bugs
+                <span style="font-weight:400;font-size:80%;"><i>Brevennia rehi</i></span>
+              </h4>
+                <div id="links-pest-2036">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62259/file/default-0ea17f1cb08e1c8165aa57c8ca78115c.jpg" title="Rice mealy bugs" data-gallery="#blueimp-gallery-pest-2036" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/6811484406/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62259/file/default-0ea17f1cb08e1c8165aa57c8ca78115c.jpg" alt="6811484406_155505917d_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice mealy bugs</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                  </div>
+                  <div class="medium-images">
+                  </div>
+
+                  <div id="blueimp-gallery-pest-2036" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-2036').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-2036 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Both adult and nymphs feed on rice plant by sucking sap. The main symptoms are stunting and wilting of plants, yellowing and curling of leaves.</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">We can see white wax covered eggs, nymphs and adults on infected plants. The insects are common in field with well drained soil.</div>
+                <div class="management"><h5>Management</h5>
+                  Augment biocontrol agents (like lady bird beetles, chloropid flies, spiders, small encyrtid wasps) in rice fields.</div>
+              <h4>
+                  Stem borers (Yellow stem borer, Striped stem borer, White stem borer, etc.)
+                <span style="font-weight:400;font-size:80%;"><i>Scirpophaga incertulas<br>
+Chilo suppressalis<br>
+Scirpophaga innotata</i></span>
+              </h4>
+                <div id="links-pest-1725">
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62264/file/default-568c8107b29fd3302f63613610b07050.jpg" title="Stem borers symptom: 'deadheart' in seedling  stage (12) and 'whitehead' after flowering (13)" data-gallery="#blueimp-gallery-pest-1725" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923499423/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62264/file/default-568c8107b29fd3302f63613610b07050.jpg" alt="11923499423_92af8d9c26_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Stem borers symptom: 'deadheart' in seedling  stage (12) and 'whitehead' after flowering (13)</div>
+                      </div>
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62257/file/default-9fd276451d35bb938995017bcfd3d49d.jpg" title="Adult rice stem borers" data-gallery="#blueimp-gallery-pest-1725" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/11923233855/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62257/file/default-9fd276451d35bb938995017bcfd3d49d.jpg" alt="11923233855_36fc11a572_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Adult rice stem borers</div>
+                      </div>
+                  </div>
+
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62258/file/default-8fd89911b137e1c739f829064a539a92.jpg" title="Damage caused by stem borers: b) whitehead." data-gallery="  #blueimp-gallery-pest-1725" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/6957587669/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62258/file/default-8fd89911b137e1c739f829064a539a92.jpg" alt="6957587669_9c77ae745f_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Damage caused by stem borers: b) whitehead.</div>
+                      </div>
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62254/file/default-f025e6b6ad5a5cba5174a232a0813c51.jpg" title="Yellow stemborer: Scirpophaga incertulas" data-gallery="  #blueimp-gallery-pest-1725" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/368501480/in/album-72157629522463765/" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62254/file/default-f025e6b6ad5a5cba5174a232a0813c51.jpg" alt="368501480_b7de79e42d_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Yellow stemborer: Scirpophaga incertulas</div>
+                      </div>
+                  </div>
+                  <div class="medium-images">
+                      <div style="display:inline-block">
+                        <a href="https://plantvillage-production-new.s3.amazonaws.com/image/62253/file/default-eb3bafb7ef652bc98d7b88bab31ff478.jpg" title="Rice stem borer " data-gallery="#blueimp-gallery-pest-1725" data-description="IRRI Photos on Flickr
+Licensed by Creative Commons Attribution-Non Commercial-ShareAlike  2.0 Generic
+https://www.flickr.com/photos/ricephotos/2688755636/in/photolist" target="_blank">
+                          <img class="img-rounded" src="https://plantvillage-production-new.s3.amazonaws.com/image/62253/file/default-eb3bafb7ef652bc98d7b88bab31ff478.jpg" alt="2688755636_be41fdf212_o.jpg">
+                        </a>
+                        <br>
+                        <div class="image_caption">Rice stem borer </div>
+                      </div>
+                  </div>
+
+                  <div id="blueimp-gallery-pest-1725" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                  </div>
+                </div>
+                <script>
+                    $('#blueimp-gallery-pest-1725').on('slide', function (event, index, slide) {
+                        $(this).children('.description')
+                            .text($('#links-pest-1725 a').eq(index).data('description'));
+                    });
+                </script>
+              <h5>Symptoms</h5>
+              <div class="symptoms">Longitudinal white patches on leaf sheaths; central leaf whorl drying out and turning brown; tillers drying out without producing panicles; panicles may dry out or may produce no grain; adult insects are nocturnal moths which lay their eggs on the leaves or leaf sheaths of the rice plants; larvae are legless grubs which feed on leaf sheaths before entering the stem of the pant</div>
+              <h5>Cause</h5>
+              <div class="cause">Insect</div>
+              <h5>Comments</h5>
+              <div class="comments">Stem borers are generally considered to be the most damaging insect pest of rice</div>
+                <div class="management"><h5>Management</h5>
+                  Stem borers are difficult to control with insecticides as once they bore inside the stem they are protected from chemical sprays; in order for chemical control to be successful, repeated applications of appropriate insecticide must be made to the foliage; granular formulations give better control than sprays; clipping seedling prior to transplanting can successfully reduce moth numbers as eggs are laid at leaf tips; harvesting plants at ground level can remove the majority of larvae from the field; plowing or flooding the remaining stubble will kill off most of the remainder of the larvae in the field</div>
+          </div>
+          <script>
+              $("#pests").insertBefore($('.info[id^="info"]').last());
+          </script>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#content-div").on('click', function () {
+        $('.content-titles').toggle()
+    });
+
+</script>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Question about Rice</h4>
+      </div>
+      <div class="modal-body">
+        <div class="question-form">
+          <form id="new_post" data-type="json" class="new_post" enctype="multipart/form-data" action="/posts" accept-charset="UTF-8" data-remote="true" method="post">
+            <div id="error_messages"></div>
+
+              <label for="post_title">Title</label>
+              <div class="question-form-info">Please be as specific as possible.</div>
+              <input maxlength="120" class="form-control" id="post_title" size="120" type="text" name="post[title]">
+
+            <label for="post_text">Text</label>
+            <div class="question-form-info">Links will be auto-linked. You may use &lt;i&gt;<i>italic</i>&lt;/i&gt; tags and &lt;b&gt;<b>bold</b>&lt;/b&gt; tags.</div>
+            <textarea rows="10" class="form-control" id="post_text" name="post[text]"></textarea>
+
+              <label for="post_location">Location</label>
+              <select class="form-control" id="post_location" name="post[location]">
+                <option value=""></option>
+                <optgroup label="US States and Territories">
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="District of Columbia">District of Columbia</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Guam">Guam</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Marianas Islands">North Marianas Islands</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Virgin Islands">Virgin Islands</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </optgroup>
+                <optgroup label="Other Countries">
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas, The">Bahamas, The</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burma">Burma</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Cabo Verde">Cabo Verde</option>
+                    <option value="Central African Republic">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
+                    <option value="Congo, Republic of the">Congo, Republic of the</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Curacao">Curacao</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Czechia">Czechia</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican Republic">Dominican Republic</option>
+                    <option value="East Timor (see Timor-Leste)">East Timor (see Timor-Leste)</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Eswatini">Eswatini</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="Gambia, The">Gambia, The</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Holy See">Holy See</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hong Kong">Hong Kong</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Korea, North">Korea, North</option>
+                    <option value="Korea, South">Korea, South</option>
+                    <option value="Kosovo">Kosovo</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Macau">Macau</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Marshall Islands">Marshall Islands</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Micronesia">Micronesia</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="North Korea">North Korea</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau">Palau</option>
+                    <option value="Palestinian Territories">Palestinian Territories</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Papua New Guinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                    <option value="Saint Lucia">Saint Lucia</option>
+                    <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Sint Maarten">Sint Maarten</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Solomon Islands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="South Sudan">South Sudan</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Timor-Leste">Timor-Leste</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </optgroup>
+              </select>
+
+            <input autocomplete="off" type="hidden" name="post[disease_id]" id="post_disease_id">
+            <input autocomplete="off" type="hidden" value="267" name="post[topic_id]" id="post_topic_id">
+            <br>
+
+            
+            <br>
+            <a class="btn btn-success btn-small add_fields" data-id="2480280" data-fields="<div class=&quot;edit-image nested-fields limited-fields-for-template__js&quot;>  <div class=&quot;image-table&quot; style=&quot;margin-bottom: 10px;margin-top: 10px;&quot;>    <div class=&quot;form-group&quot;>      <label for=&quot;post_images_attributes_2480280_file&quot;>Image File</label>      <br>      <input type=&quot;file&quot; name=&quot;post[images_attributes][2480280][file]&quot; id=&quot;post_images_attributes_2480280_file&quot; />      <br>    </div>    <div class=&quot;form-group&quot;>      <label for=&quot;post_images_attributes_2480280_description&quot;>Image Description</label>      <br>      <textarea cols=&quot;50&quot; rows=&quot;2&quot; name=&quot;post[images_attributes][2480280][description]&quot; id=&quot;post_images_attributes_2480280_description&quot;></textarea>    </div>    <br>    <div class=&quot;form-group&quot;>      <label for=&quot;post_images_attributes_2480280_metadata&quot;>Metadata (e.g. source)</label>      <br>      <textarea cols=&quot;50&quot; rows=&quot;2&quot; name=&quot;post[images_attributes][2480280][metadata]&quot; id=&quot;post_images_attributes_2480280_metadata&quot;></textarea>    </div>  </div>    <input value=&quot;false&quot; autocomplete=&quot;off&quot; type=&quot;hidden&quot; name=&quot;post[images_attributes][2480280][_destroy]&quot; id=&quot;post_images_attributes_2480280__destroy&quot; /><a class=&quot;btn btn-danger btn-small remove_fields dynamic&quot; href=&quot;#&quot;>Remove image</a>  <hr></div>" href="#">New Image</a>
+            <br><br>
+              <input type="submit" name="commit" value="Submit Question" class="btn btn-primary" id="question-submit-btn" rel="tooltip" title="You must select question type" data-disable-with="Submit Question">
+            <div id="spinnerContainer" class="spinner">
+            </div>
+</form>        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    var success_div = document.getElementById('error_messages');
+    var error_div = document.getElementById('error_messages');
+
+    $('.call_disease_post').click(function(){
+      $('#new_post').trigger("reset");
+      error_div.innerHTML = '';
+      success_div.innerHTML = '';
+    })
+
+    $('#new_post').on('ajax:success', function(e, data, status, xhr){
+      error_div.innerHTML = '';
+      success_div.innerHTML = 'Successfully Posted';
+      alert("Successfully Posted")
+      $('#new_post').trigger("reset");
+      $('.close').click();
+    }).on('ajax:error',function(e, xhr, status, error){
+      error_div.innerHTML = '';
+      jQuery.each(xhr.responseJSON,function(e,msg){
+        if(msg == 'Images Please add atleast one')
+          msg = 'Please add atleast one Image'
+        error_div.innerHTML += msg;
+        error_div.innerHTML += '<br>';
+      })
+      error_div.innerHTML += '<br>';
+    });
+
+    $('.add_fields').on('click', function(event) {
+      var regexp, time;
+      time = new Date().getTime();
+      regexp = new RegExp($(this).data('id'), 'g');
+      $(this).before($(this).data('fields').replace(regexp, time));
+      $('table.image-table').last().wrap('<div class="edit-image" />');
+      return event.preventDefault();
+    });
+
+    $(".add_fields").click(function(e){
+      if( $(".edit-image").length > 9 ){
+        $(".add_fields").hide()
+      }
+      e.preventDefault();
+      e.stopPropagation();
+    });
+  });
+</script>
+
+
+
+          </div>
+      </div>
+      <div class="isolate-old-styles layout_footer"><footer id="page-footer" class="bg-dark-80 text-white mt-auto pt-12 pb-16 lg:pt-20 ">
+  <div class="main-col global-grid gap-y-10">
+    <div class="col-start-2 col-span-11 sm:col-start-auto sm:col-span-6 lg:col-span-2">
+      <a href="/" class="font-bold text-2xl">About</a>
+      <ul class="text-xs font-bold leading-relaxed mt-5 lg:space-y-2">
+        <li><a href="/projects" class="block py-3 lg:py-0">Projects</a></li>
+        <li><a href="/team" class="block py-3 lg:py-0">Team</a></li>
+        <li><a href="/blogposts" class="block py-3 lg:py-0">Blog</a></li>
+        <li>
+          <a href="/donate" class="block py-3 lg:py-0">Donate</a>
+        </li>
+        <li><a href="mailto:mayor@plantvillage.psu.edu" class="block py-3 lg:py-0" target="_blank">Contact us</a>
+</li>
+      </ul>
+    </div>
+    <div class="col-start-2 col-span-11 sm:col-start-auto sm:col-span-6 lg:col-span-2">
+      <div class="font-bold text-2xl">For Farmers</div>
+      <ul class="text-xs font-bold leading-relaxed mt-5 lg:space-y-2">
+        <li><a href="/plants" class="block py-3 lg:py-0">Crops</a></li>
+        <li><a href="/diseases" class="block py-3 lg:py-0">Pests &amp; Diseases</a></li>
+        <li><a href="/topics" class="block py-3 lg:py-0">Topics</a></li>
+        <li><a href="/posts" class="block py-3 lg:py-0">Q &amp; A</a></li>
+        <li><a href="/video_libraries" class="block py-3 lg:py-0">Video Library</a></li>
+      </ul>
+    </div>
+    <div class="col-start-2 col-span-11 sm:col-start-auto sm:col-span-6 lg:mt-0 lg:col-span-2">
+      <a href="" class="font-bold text-2xl">For Researchers</a>
+      <ul class="text-xs font-bold mt-5 lg:space-y-2">
+        <li><a href="https://stressmap.plantvillage.psu.edu" class="block py-3 lg:py-0">Stress Map</a></li>
+        <li><a href="/panel/analytics/locust_surveys" class="block py-3 lg:py-0">Locust Map</a></li>
+      </ul>
+    </div>
+    <div class="col-start-2 col-span-11 w-full sm:col-start-auto sm:col-span-6 lg:col-span-2 lg:col-start-11 lg:justify-self-end">
+      <div class="lg:flex lg:flex-col-reverse">
+        <div class="text-xs lg:mt-3">
+          Support out project by<br>donating or participating
+        </div>
+        <a href="/donate" class="inline-block bg-yellow-accent text-black-1 py-3 px-16 text-center font-semibold rounded-sm mt-3 lg:mt-0 lg:px-0">
+          Donate
+        </a>
+      </div>
+    </div>
+    <div class="col-span-12 flex flex-col-reverse lg:grid lg:border-t lg:border-dark-50 lg:mt-10 lg:pt-8">
+      <ul class="text-white text-sm grid grid-cols-2 gap-5 pt-8 border-t border-dark-50 lg:border-0 lg:pt-0 lg:flex">
+        <li>
+          <a href="https://www.facebook.com/plantvillage" class="flex items-center" target="_blank">
+            <svg width="16" height="16" role="img" class="flex-shrink-0 mr-1">
+              <use xlink:href="#facebook_logo"></use>
+            </svg>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/plantvillage" class="flex items-center" target="_blank">
+            <svg width="16" height="14" role="img" class="flex-shrink-0 mr-1">
+              <use xlink:href="#twitter_logo"></use>
+            </svg>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCwU3ura8EXmHpQqucO74zzA" class="flex items-center" target="_blank">
+            <svg width="16" height="12" role="img" class="flex-shrink-0 mr-1">
+              <use xlink:href="#youtube_logo"></use>
+            </svg>
+            YouTube
+          </a>
+        </li>
+        <li>
+          <a href="https://us.linkedin.com/company/plantvillage" class="flex items-center" target="_blank">
+            <svg width="16" height="16" role="img" class="flex-shrink-0 mr-1">
+              <use xlink:href="#linkedin_logo"></use>
+            </svg>
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+      <ul class="text-dark-30 mt-6 mb-7 lg:ml-auto lg:text-right lg:mt-0 lg:mb-0 lg:col-start-12">
+        <li><a href="/tos" class="block">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+    </div>
+
+    <script>
+      document.addEventListener("turbolinks:load", function() {
+        setTimeout(function () {
+          $('.alert').fadeOut(3000);
+        }, 1000);
+      });
+    </script>
+
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDBqVMyirBXvwsMy-d5IuakUnQ6fIhWEMg&amp;callback=isNaN"></script>
+
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" display="none" style="display:none;">
+  <symbol id="pv_logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233 39" fill="currentColor">
+      <title>PlantVillage</title>
+      <desc>PlantVillage logo</desc>
+      <path d="M32.554 18.455c-.002 5.81-4.191 11.002-10.763 13.02-1.477.452-2.729.064-4.377.166-1.814.113-3.9.667-5.557.335C5.313 30.663.346 26.142.026 20.473c-.297-5.267 1.95-8.199 6.989-10.228.711-.287 1.314.87 2.159 1.088-.634 2.004-.738 3.678-.705 3.79.393 3.514 5.096 1.242 7.01.142 1.475-.849 3.057-1.883 3.68-3.445.437.078.355.161.766.161 1.947 0 3.592-.907 4.798-2.54 0 0 7.834.326 7.831 9.014z"></path>
+      <path d="M11.844 9.705c-4.299.277-5.806-4.918-5.806-4.918 2.316-.198 6.242.07 8.447 1.5 0 0 .662-.802-.043-5.427L15.706 0c1.81 5.98 1.528 7.243 1.528 7.243 2.115-1.311 5.811-2.572 8.085-2.74 0 0-.85 7.01-7.195 5.329-.451 2.6-5.165 5.64-7.697 5.433 0 0-.244-3.675 1.417-5.531v-.03z"></path>
+      <path d="M56.56 29.677V6.173h8.075c1.297 0 2.511.132 3.64.396 1.13.24 2.116.661 2.957 1.262.84.577 1.502 1.358 1.983 2.343.504.962.757 2.151.757 3.57 0 1.37-.253 2.559-.757 3.568a6.752 6.752 0 01-1.983 2.488c-.841.648-1.815 1.13-2.92 1.442a12.937 12.937 0 01-3.533.468h-2.92v7.967h-5.3zm5.299-12.185h2.595c2.884 0 4.326-1.25 4.326-3.749 0-1.225-.384-2.09-1.153-2.595-.77-.505-1.875-.757-3.317-.757H61.86v7.101zM82.469 30.11c-.914 0-1.683-.144-2.308-.433a3.94 3.94 0 01-1.514-1.19c-.36-.528-.625-1.153-.793-1.874a11.316 11.316 0 01-.252-2.487V4.406h5.3v19.936c0 .553.095.937.287 1.153.217.217.433.325.65.325h.288c.096 0 .216-.024.36-.072l.65 3.93c-.29.12-.662.215-1.118.288a7.24 7.24 0 01-1.55.144zM92.423 30.11c-.817 0-1.562-.144-2.235-.433a4.7 4.7 0 01-1.658-1.117 5.84 5.84 0 01-1.082-1.73 6.08 6.08 0 01-.36-2.128c0-1.874.793-3.34 2.379-4.398 1.586-1.057 4.146-1.766 7.678-2.127-.048-.793-.288-1.418-.72-1.874-.41-.48-1.106-.721-2.091-.721-.77 0-1.538.144-2.308.432-.745.289-1.55.685-2.415 1.19l-1.91-3.497a18.932 18.932 0 013.604-1.694 12.47 12.47 0 014.038-.649c2.307 0 4.061.66 5.263 1.983 1.226 1.298 1.839 3.328 1.839 6.092v10.238h-4.326l-.36-1.838h-.145a12.018 12.018 0 01-2.415 1.658c-.841.409-1.767.613-2.776.613zM94.225 26c.601 0 1.118-.132 1.55-.396.433-.265.89-.637 1.37-1.118V21.35c-1.874.264-3.172.649-3.893 1.153-.72.505-1.081 1.106-1.081 1.803 0 .577.18 1.01.54 1.298.385.264.89.396 1.514.396zM106.927 29.677v-17.88h4.326l.361 2.27h.144a13.753 13.753 0 012.523-1.874c.914-.553 1.983-.829 3.209-.829 1.946 0 3.352.637 4.218 1.91.889 1.274 1.333 3.04 1.333 5.3v11.103h-5.299V19.26c0-1.298-.18-2.187-.541-2.668-.336-.48-.889-.72-1.658-.72-.673 0-1.25.155-1.73.468-.481.288-1.01.709-1.586 1.262v12.076h-5.3zM134.443 30.11c-1.106 0-2.055-.168-2.848-.505a5.147 5.147 0 01-1.911-1.406c-.481-.6-.841-1.322-1.081-2.163-.217-.865-.325-1.814-.325-2.848v-7.246h-2.451v-3.93l2.74-.215.612-4.759h4.398v4.759h4.29v4.145h-4.29v7.174c0 1.01.205 1.743.613 2.2.433.432.998.648 1.695.648.288 0 .576-.036.865-.108a5.69 5.69 0 00.829-.252l.829 3.857a24.4 24.4 0 01-1.694.433c-.649.144-1.406.216-2.271.216zM147.017 29.677l-7.859-23.756h1.767l4.398 13.879c.456 1.442.865 2.775 1.225 4.001.385 1.202.818 2.524 1.298 3.966h.144c.241-.721.457-1.406.649-2.055.217-.65.421-1.286.613-1.91l.577-1.948a71.24 71.24 0 00.649-2.054l4.398-13.88h1.694l-7.786 23.757h-1.767zM160.039 29.677V12.373h1.586v17.304h-1.586zm.829-21.485c-.409 0-.757-.133-1.046-.397-.264-.264-.396-.6-.396-1.01 0-.456.132-.804.396-1.045a1.494 1.494 0 011.046-.396c.408 0 .745.132 1.009.396.289.24.433.59.433 1.046 0 .408-.144.745-.433 1.01-.264.263-.601.396-1.009.396zM170.403 30.11c-1.418 0-2.126-.913-2.126-2.74V3.758h1.586v23.828c0 .385.072.673.216.866a.682.682 0 00.541.252h.216c.096 0 .24-.024.433-.072l.288 1.297a3.76 3.76 0 01-.505.109 2.418 2.418 0 01-.649.072zM178.958 30.11c-1.418 0-2.127-.913-2.127-2.74V3.758h1.586v23.828c0 .385.073.673.217.866a.682.682 0 00.54.252h.217c.096 0 .24-.024.432-.072l.289 1.297a3.793 3.793 0 01-.505.109 2.418 2.418 0 01-.649.072zM189.171 30.11a6.358 6.358 0 01-1.947-.289 4.63 4.63 0 01-1.586-.865 4.005 4.005 0 01-1.081-1.478c-.265-.6-.397-1.31-.397-2.127 0-1.922.889-3.376 2.668-4.362 1.802-1.01 4.638-1.73 8.508-2.163 0-.649-.048-1.297-.145-1.946-.096-.673-.3-1.262-.612-1.767a3.53 3.53 0 00-1.262-1.262c-.529-.336-1.226-.504-2.091-.504-1.154 0-2.211.228-3.172.685-.962.456-1.743.9-2.344 1.334l-.721-1.19a23.85 23.85 0 011.118-.721c.457-.264.961-.505 1.514-.721a12.23 12.23 0 011.803-.54 7.997 7.997 0 012.018-.253c1.01 0 1.863.18 2.56.54a4.404 4.404 0 011.694 1.406c.433.601.745 1.31.937 2.127.193.794.289 1.659.289 2.596v11.067h-1.37l-.144-2.235h-.108a19.87 19.87 0 01-2.884 1.875 6.893 6.893 0 01-3.245.793zm.289-1.37a6.11 6.11 0 002.884-.721c.913-.48 1.91-1.178 2.992-2.091v-5.876c-1.779.216-3.281.48-4.507.793-1.225.313-2.211.685-2.956 1.118-.745.432-1.285.925-1.622 1.478a3.675 3.675 0 00-.468 1.838c0 .625.096 1.154.288 1.586.192.433.457.793.793 1.082.336.264.721.469 1.154.613.456.12.937.18 1.442.18zM208.754 38.005c-2.187 0-3.918-.433-5.191-1.298-1.274-.865-1.911-2.03-1.911-3.497 0-.769.228-1.514.685-2.235.456-.721 1.081-1.37 1.874-1.947v-.144a3.322 3.322 0 01-1.081-1.081c-.288-.457-.433-1.022-.433-1.695 0-.769.217-1.418.649-1.946.433-.553.841-.962 1.226-1.226v-.144c-.553-.48-1.058-1.13-1.514-1.947-.433-.817-.649-1.754-.649-2.812 0-.889.156-1.706.469-2.451a5.613 5.613 0 011.297-1.91 5.56 5.56 0 011.947-1.263 6.087 6.087 0 012.379-.468c.481 0 .914.048 1.298.144.385.072.709.168.973.288h5.876v1.334h-4.037c.553.48 1.009 1.106 1.37 1.875.36.745.541 1.574.541 2.487 0 .89-.157 1.707-.469 2.452a5.999 5.999 0 01-1.298 1.946 5.885 5.885 0 01-1.91 1.262 6.256 6.256 0 01-2.344.433c-.48 0-.985-.06-1.514-.18-.504-.12-.961-.301-1.37-.541-.384.312-.721.66-1.009 1.045-.264.385-.397.865-.397 1.442 0 .625.229 1.166.685 1.622.457.433 1.334.65 2.632.65h3.713c1.947 0 3.377.324 4.29.973.937.624 1.406 1.622 1.406 2.992 0 .745-.192 1.466-.577 2.163-.384.72-.937 1.345-1.658 1.874-.697.553-1.55.986-2.56 1.298-1.009.336-2.139.505-3.388.505zm-.253-15.105c.601 0 1.166-.108 1.695-.325a4.356 4.356 0 001.442-1.009 4.86 4.86 0 00.973-1.55c.24-.6.36-1.262.36-1.983 0-.72-.12-1.382-.36-1.983a4.443 4.443 0 00-.973-1.514 3.814 3.814 0 00-1.406-.937 4.299 4.299 0 00-1.731-.36 4.38 4.38 0 00-1.766.36 4.243 4.243 0 00-1.406.937 4.428 4.428 0 00-.973 1.514c-.241.577-.361 1.238-.361 1.983 0 .721.12 1.382.361 1.983.24.6.564 1.117.973 1.55.433.433.913.77 1.442 1.01a4.705 4.705 0 001.73.324zm.433 13.807c.961 0 1.838-.132 2.632-.397.793-.24 1.466-.565 2.018-.973.553-.409.974-.877 1.262-1.406a2.973 2.973 0 00.469-1.586c0-.961-.349-1.646-1.046-2.055-.673-.384-1.658-.577-2.956-.577H207.6c-.192 0-.493-.012-.901-.036a9.745 9.745 0 01-1.262-.252c-.793.553-1.37 1.141-1.73 1.766-.361.625-.541 1.25-.541 1.875 0 1.081.493 1.959 1.478 2.631 1.009.673 2.439 1.01 4.29 1.01zM226.835 30.11a8.11 8.11 0 01-3.137-.613 7.383 7.383 0 01-2.523-1.767c-.721-.793-1.298-1.742-1.73-2.847-.409-1.13-.613-2.404-.613-3.822 0-1.418.204-2.691.613-3.82.432-1.13.997-2.08 1.694-2.849.721-.793 1.526-1.394 2.415-1.802a6.505 6.505 0 012.812-.65c2.067 0 3.689.698 4.867 2.092 1.177 1.394 1.766 3.364 1.766 5.912v.649c0 .216-.024.432-.072.649h-12.473c.024 1.081.192 2.09.505 3.028.312.913.745 1.706 1.297 2.379a6.54 6.54 0 002.055 1.55c.793.36 1.683.54 2.668.54.937 0 1.778-.131 2.523-.396a8.672 8.672 0 002.127-1.153l.649 1.226c-.697.408-1.466.793-2.307 1.153-.817.36-1.862.54-3.136.54zm-6.381-10.166h11.031c0-2.235-.456-3.893-1.37-4.975-.913-1.105-2.151-1.658-3.713-1.658-.745 0-1.454.156-2.127.468a5.58 5.58 0 00-1.838 1.298c-.529.577-.974 1.274-1.334 2.091-.337.817-.553 1.742-.649 2.776z"></path>
+    </svg>
+  </symbol>
+
+  <symbol id="facebook_logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+      <title>Facebook</title>
+      <desc>Facebook logo</desc>
+      <path d="M16 8a8 8 0 1 0-9.25 7.903v-5.59H4.719V8H6.75V6.237c0-2.005 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8.002 8.002 0 0 0 16 8Z" fill="#4267B2"></path>
+    </svg>
+  </symbol>
+
+  <symbol id="twitter_logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" fill="currentColor">
+      <title>Twitter</title>
+      <desc>Twitter logo</desc>
+      <path d="M5.033 13.5c6.037 0 9.34-5.002 9.34-9.339 0-.14-.004-.284-.01-.425A6.667 6.667 0 0 0 16 2.036a6.472 6.472 0 0 1-1.884.516A3.3 3.3 0 0 0 15.559.737a6.599 6.599 0 0 1-2.083.797A3.287 3.287 0 0 0 7.88 4.527 9.323 9.323 0 0 1 1.115 1.1a3.286 3.286 0 0 0 1.016 4.38 3.287 3.287 0 0 1-1.487-.41v.041A3.281 3.281 0 0 0 3.278 8.33c-.483.132-.99.151-1.481.056a3.29 3.29 0 0 0 3.065 2.282A6.583 6.583 0 0 1 0 12.026 9.312 9.312 0 0 0 5.033 13.5Z" fill="#1DA1F2"></path>
+    </svg>
+  </symbol>
+
+  <symbol id="youtube_logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" fill="currentColor">
+      <title>Youtube</title>
+      <desc>Youtube logo</desc>
+      <path d="M15.84 2.8s-.156-1.103-.637-1.588c-.61-.637-1.29-.64-1.603-.678C11.363.372 8.003.372 8.003.372h-.006s-3.36 0-5.597.162c-.313.038-.994.041-1.603.678C.316 1.697.162 2.8.162 2.8S0 4.097 0 5.39v1.213c0 1.294.16 2.59.16 2.59s.156 1.104.634 1.588c.61.638 1.41.616 1.765.685 1.282.122 5.441.159 5.441.159s3.363-.006 5.6-.166c.313-.037.994-.04 1.603-.678.481-.484.638-1.587.638-1.587S16 7.9 16 6.604V5.39c0-1.294-.16-2.591-.16-2.591ZM6.348 8.075V3.578l4.322 2.256-4.322 2.24Z" fill="red"></path>
+    </svg>
+  </symbol>
+
+  <symbol id="linkedin_logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+      <title>Linkedin</title>
+      <desc>Linkedin logo</desc>
+      <path d="M14.816 0H1.18C.528 0 0 .516 0 1.153v13.69A1.17 1.17 0 0 0 1.181 16h13.635c.653 0 1.184-.519 1.184-1.153V1.153C16 .516 15.469 0 14.816 0ZM4.746 13.634H2.373V5.997h2.375v7.637ZM3.56 4.956a1.376 1.376 0 1 1-.004-2.751 1.376 1.376 0 0 1 .004 2.751Zm10.075 8.678h-2.372V9.922c0-.885-.015-2.025-1.234-2.025-1.234 0-1.422.966-1.422 1.962v3.775H6.237V5.997h2.275V7.04h.032c.315-.6 1.09-1.235 2.243-1.235 2.404 0 2.847 1.582 2.847 3.638v4.19Z" fill="#0077B5"></path>
+    </svg>
+  </symbol>
+
+  <symbol id="heart_icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <title>Heart</title>
+      <desc>Heart icon</desc>
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+    </svg>
+  </symbol>
+</svg>
+
+  
+
+<iframe id="_hjSafeContext_40781226" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body>
+</html>

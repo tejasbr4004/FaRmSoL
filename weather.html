@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="weather.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>MyWeatherSite</title>
+</head>
+
+<body>
+
+
+
+  <!-- <div style="display: flex;">
+    <img src="logo.png" alt="" style="height: 100px;width: 100px;">
+    <h2 style="position: relative;top: 35px;font-family: 'Passion One', cursive;color: rgb(248, 243, 243);font-weight: 700;">MyWeatherSite</h2>
+  </div> -->
+
+  <div class="container py-3">
+    <header>
+
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <nav class="navbar">
+          <div class="container-fluid" style="justify-content: center;">
+            <form class="d-flex" role="search">
+              <input class="form-control me-1" id="city" type="search" placeholder="Enter City Name" aria-label="Search"
+                style="border-radius: 15px;width: 250px;">
+              <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <br>
+        <br>
+        <h1><span id="cityName" style="font-family: 'Passion One', cursive;"></span><span style="font-family: 'Passion One', cursive;"> Weather</span></h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3">
+            <div class=" py-3">
+              <h4 class="my-0">Temperature</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><span id="temp"
+                  style="position: relative;top: 6px;color: rgb(228, 200, 15);font-weight: bold;"></span><img
+                  src="https://cdn-icons-png.flaticon.com/512/2059/2059275.png" alt=""
+                  style="height: 35px;width: 35px;"></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <span id="weatherimg" style="position: relative;top: 1rem;"></span>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3">
+            <div class=" py-3">
+              <h4 class="my-0">Humidity</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><span id="humidity"
+                  style="color: rgb(228, 200, 15);font-weight: 700;"></span><span
+                  style="font-weight: bold;color:rgb(232 182 21);"> %</span>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <span id="weatherimg2" style="position: relative;top: 1rem;"></span>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3">
+            <div class="py-3">
+              <h4 class="my-0">WindSpeed</h4>
+            </div>
+            <div class="card-body" style="background: transparent;">
+              <h1 class="card-title pricing-card-title"><span id="wind_speed"
+                  style="color: rgb(228, 200, 15);font-weight: 700;"></span><span
+                  style="font-weight:700;color: rgb(232 182 21);"> km/h</span>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <span id="weatherimg3" style="position: relative;top: 1rem;"></span>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="display-6 text-center mb-4">Weather of Most Searched Cities</h2>
+
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Temperature</th>
+              <th style="width: 22%;">Humidity</th>
+              <th style="width: 22%;">WindSpeed</th>
+              <th style="width: 22%;">Cloudy_Prediction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Hyderabad</th>
+              <td><span id="hydertemp"></span><span>&#8451;</span></td>
+              <td><span id="hyderhumidity"></span><span>%</span></td>
+              <td><span id="hyderwind_speed"></span><span>km/h</span< /td>
+              <td><span id="hydercloud"></span><span>%</span< /td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">chennai</th>
+              <td><span id="chennaitemp"></span><span>&#8451;</span></td>
+              <td><span id="chennaihumidity"></span><span>%</span></td>
+              <td><span id="chennaiwind_speed"></span><span>km/h</span< /td>
+              <td><span id="chennaicloud"></span><span>%</span< /td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Mumbai</th>
+              <td><span id="mumbaitemp"></span><span>&#8451;</span></td>
+              <td><span id="mumbaihumidity"></span><span>%</span></td>
+              <td><span id="mumbaiwind_speed"></span><span>km/h</span< /td>
+              <td><span id="mumbaicloud"></span><span>%</span< /td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Delhi</th>
+              <td><span id="delhitemp"></span><span>&#8451;</span></td>
+              <td><span id="delhihumidity"></span><span>%</span></td>
+              <td><span id="delhiwind_speed"></span><span>km/h</span< /td>
+              <td><span id="delhicloud"></span><span>%</span< /td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Bengaluru</th>
+              <td><span id="bengatemp"></span><span>&#8451;</span></td>
+              <td><span id="bengahumidity"></span><span>%</span></td>
+              <td><span id="bengawind_speed"></span><span>km/h</span< /td>
+              <td><span id="bengacloud"></span><span>%</span< /td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+  </div>
+  <footer class=" my-md-1 pt-md-4 border-black" style="background-color: rgb(16, 226, 5);">
+    <div class="row text-center bottom-0">
+      <a href="index.html" style="color: white;text-decoration: none;">
+        <h4>&copy;www.MyWeatherSite.com</h4>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="weather.js"></script>
+</body>
+
+</html>

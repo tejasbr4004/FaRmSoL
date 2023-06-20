@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Climate and Crop Prediction</title>
+  <link rel="stylesheet" href="st.css">
+  <script>
+    function getClimate() {
+      var location = document.getElementById("location").value;
+
+      // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+      var apiKey = 'YOUR_API_KEY';
+      var url = 'https://api.openweathermap.org/data/2.5/weather?' + location + '&appid=' + apiKey;
+
+      // Send an HTTP GET request
+      var request = new XMLHttpRequest();
+      request.open('GET', url, true);
+
+      request.onload = function() {
+        if (request.status >= 200 && request.status < 400) {
+          var weatherData = JSON.parse(request.responseText);
+
+          // Convert temperature from Kelvin to Celsius
+          var temperature = weatherData.main.temp - 273.15;
+
+          // Display climate information
+          document.getElementById("temperature").innerHTML = temperature.toFixed(2) + "°C";
+          document.getElementById("humidity").innerHTML = weatherData.main.humidity + "%";
+          document.getElementById("rainfall").innerHTML = weatherData.clouds.all + " mm"; // Example: using cloud coverage as rainfall indicator
+
+          // Predict suitable crops based on climate data
+          var suitableCrops = getSuitableCrops(temperature, weatherData.main.humidity, weatherData.clouds.all);
+
+          // Display suitable crops
+          document.getElementById("suitable-crops").innerHTML = suitableCrops.join(", ");
+        } else {
+          // Handle error response
+          document.getElementById("climate-info").innerHTML = "Error retrieving climate data.";
+        }
+      };
+
+      request.onerror = function() {
+        // Handle network errors
+        document.getElementById("climate-info").innerHTML = "Network error.";
+      };
+
+      request.send();
+    }
+
+    function getSuitableCrops(temperature, humidity, rainfall) {
+      var crops = [];
+
+      // Example logic for determining suitable crops based on climate data
+      if (temperature > 25 && humidity > 60 && rainfall > 500) {
+        crops.push("Rice");
+        crops.push("Wheat");
+      } else if (temperature > 18 && humidity > 50 && rainfall > 300) {
+        crops.push("Maize");
+        crops.push("Barley");
+      } else if (temperature > 30 && humidity > 70 && rainfall > 800) {
+        crops.push("Sugarcane");
+        crops.push("Banana");
+      } else {
+        crops.push("No suitable crops found.");
+      }
+
+      return crops;
+    }
+  </script>
+</head>
+<body>
+  <h1>Climate and Crop Prediction</h1>
+  <label for="location">Enter location:</label>
+  <input type="text" id="location" placeholder="City, Country" required>
+  <button onclick="getClimate()">Get Climate</button>
+
+  <h2>Climate Information</h2>
+  <div id="climate-info">
+    <p>Temperature: <span id="temperature"></span></p>
+    <p>Humidity: <span id="humidity"></span></p>
+    <p>Rainfall: <span id="rainfall"></span></p>
+  </div>
+ <div class="cls">
+  <h2>Suitable Crops</h2>
+  <h2>Success Percentage</h2>
+ </div>
+  
+  <div id="suitable-crops"></div>
+</body>
+</html>

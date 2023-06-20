@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaRmSoL Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   
+    <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;800&family=Bree+Serif&family=Pacifico&family=Smooch&family=Tiro+Kannada:ital@1&display=swap"
+      rel="stylesheet">
+
+      <style>
+        .card{
+          background: linear-gradient(45deg,rgb(34, 240, 34),rgb(198, 237, 198),rgb(134, 233, 134));
+          box-shadow: -6px -5px 8px -2px rgb(7, 208, 7);
+
+        }
+        .row{
+          margin: 30px;
+        }
+        body{
+          background-color: #c5f4c5;
+        }
+    .image{     
+        position: absolute;
+        top: 15px;
+        right: 18px;
+
+    background-color: transparent;
+    height: 37px;
+    width: 50px;
+    transform: scale(2);
+    padding-left: 15px;
+    margin-right: 10px;
+        }
+      </style>
+</head>
+<body>
+    <nav class="navbar fixed-top" style="background-color:white; box-shadow: 2px 3px 20px 0.3px black;height: 70px;" id="con" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img class="image" src="home_images/Agriculture_Logo-removebg.png"  alt=""></a>
+         
+          <button class="navbar-toggler" style="position: absolute;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="border-left: 2px solid rgb(0,255,0);border-right:2px solid rgb(0,255,0)">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="color:rgb(4, 125, 4) ;font-weight: bold;">FaRmSoL</h5>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-left flex-grow-1 pe-3" >
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html" style="color:rgb(4, 181, 4);font-family: 'Baloo Bhai 2', cursive;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #99f899;color:rgb(4, 181, 4);">
+                    Our Products
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu">
+                    <li><a class="dropdown-item" href="chat.html">Chat_With_Community</a></li>
+                    <li><a class="dropdown-item" href="to-do/to-do.html"style="background-color: rgb(191, 249, 191);" >Make your schedule</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Email/email.html" style="color:rgb(4, 181, 4);font-family: 'Baloo Bhai 2', cursive;">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(4, 181, 4);font-family: 'Baloo Bhai 2', cursive;">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu">
+                    <li><a class="dropdown-item" href="weather.html">Weather_Predict</a></li>
+                    <li><a class="dropdown-item" href="rain.html">Rain_Predict</a></li>
+                    <li><a class="dropdown-item" href="in.html">Crop_prediction</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="login.html"style="color:rgb(4, 181, 4);font-family: 'Baloo Bhai 2', cursive;">login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="signup.html"style="color:rgb(4, 181, 4);font-family: 'Baloo Bhai 2', cursive;">Sign up</a>
+                </li>
+              </ul>
+              
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+
+
+<div style="position: absolute;top: 200px;margin: 30px;padding: 20px;width: 100%;justify-content: center;">
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">List of Pesticides</h5>
+              <p class="card-text"></p>
+              <a href="pesticides.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">crop Statistics</h5>
+              <p class="card-text"></p>
+              <a href="index1.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ToTal budget</h5>
+              <p class="card-text"></p>
+              <a href="harvestBudget.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Harvest Expenses</h5>
+              <p class="card-text"></p>
+              <a href="BudgetManagement.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Detect Disease</h5>
+              <p class="card-text"></p>
+              <a href="farmsolve1.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Schemes and Loans</h5>
+              <p class="card-text"></p>
+              <a href="farmsolve1.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Climate and crop Prediction</h5>
+              <p class="card-text"></p>
+              <a href="in.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Commonly Occurring disease</h5>
+              <p class="card-text"></p>
+              <a href="farmsolve1.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Premium Plans</h5>
+              <p class="card-text"></p>
+              <a href="plans/plans.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Crop LIST</h5>
+              <p class="card-text"></p>
+              <a href="farmsolve1.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Chat_With_Community</h5>
+              <p class="card-text"></p>
+              <a href="chat.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">To do List</h5>
+              <p class="card-text"></p>
+              <a href="to-do/to-do.html" class="btn btn-primary">click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2>Company</h2>
+      <div class="content">
+        <ul class="list">
+          <a href="Aboutus.html" style="color: black; font-weight: 500">
+            <li>About Us</li>
+          </a>
+          <a href="termscondition.html" style="color: black; font-weight: 500">
+            <li>Privacy and Policy</li>
+          </a>
+          <a href="Aboutproducts.html" style="color: black; font-weight: 500">
+            <li>Products</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="center box">
+      <h2>Address</h2>
+      <div class="content">
+        <div class="place">
+          <a href=""><span class="bi bi-geo-alt-fill" style="color: white"></span></a>
+          <a href=""><span class="text" style="color: black">KR Circle Bangalore-560001</span></a>
+        </div>
+        <div class="email">
+          <a href=""><span class="bi bi-envelope-check-fill" style="color: white"></span></a>
+          <a href=""><span class="text" style="color: black">abcd@gmail.com</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="right box">
+      <h2>Contact Us</h2>
+      <div class="content">
+        <div class="phone">
+          <span class="bi bi-telephone-plus-fill"></span>
+          <span class="text" style="color: black; font-weight: 500">+089-765432100</span>
+        </div>
+        <div class="phone">
+          <span class="bi bi-telephone-plus-fill"></span>
+          <span class="text" style="color: black; font-weight: 500">+089-675432101</span>
+        </div>
+        <div class="social">
+          <a href=""><span class="bi bi-facebook"></span></a>
+          <a href=""><span class="bi bi-instagram"></span></a>
+          <a href=""><span class="bi bi-twitter"></span></a>
+          <a href=""><span class="bi bi-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <center>
+      <span class="copy">created By<a href="">FreshNPure</a> | </span>
+      <span>&copy;</span><span> 2022 All rights Reserved.</span>
+    </center>
+  </div>
+</footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>     
+</body>
+</html>

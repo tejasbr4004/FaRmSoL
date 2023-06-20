@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="farmsolve.css">    
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   <title>Document</title>
+   
+</head>
+
+<body>
+  <h1>List of crops</h1>
+      <h2>Ragi</h2>
+      <input type="submit" value="view" name="view" onclick="c1d1()">
+      <div id="c1d1" style="display: none">
+  <img src="ragi1.jpg"
+  style="width: 500px;">
+  <img src="ragi2.jpg"
+  style="width: 500px;">
+   <P>
+    Ragi, also known as finger millet, is a nutritious cereal crop cultivated primarily in India and Africa.<b> It requires well-drained soil with a pH range of 5.5-7.5 and is generally sown during the rainy season.</b>
+    <b> Adequate irrigation, especially during critical growth stages, is crucial for optimum yield. </b>
+     is done when the plants turn golden brown, typically around 3-4 months after sowing
+     <h3> diseases in ragi and Remedies</h3>
+   </P>
+      <b>
+      <a href="https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_cereals_ragi.html" target="_blank">diseases in ragi</a>
+      </b>   
+    </div>
+    <h2>Wheat</h2>
+      <input type="submit" value="view" name="view" onclick="c1d2()">
+      <div id="c1d2" style="display: none">
+
+   <p>Wheat is a widely cultivated crop known for its staple value and versatility. It requires well-drained soil and a temperate climate for successful cultivation. Proper management practices, including regular soil testing, pest control, and timely sowing, are essential for optimal growth. Adequate irrigation during critical growth stages and careful monitoring of moisture levels ensure healthy development.
+    <b> Harvesting takes place when the crop reaches maturity, typically around 110-130 days after sowing, using machinery like combine harvesters.</b></p>
+    <img src="whaet2.jpg"
+    style="width: 500px;">
+    <img src="whaet1.jpg"
+    style="width: 600px;">
+    <p>  disease in wheat and their remedies</p>
+         <b>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6638159/" target="_blank">diseases and remedies</a>
+         </b>
+      </div>
+      <h2>Paddy</h2>
+      <input type="submit" value="view" name="view" onclick="c1d3()">
+      <div id="c1d3" style="display: none">
+        <p>Paddy is a major cereal crop commonly cultivated in warm and humid regions. 
+            <b>It requires careful cultivation management, including proper seed selection, soil preparation, and nutrient management, to ensure optimal growth.</b>
+            <b> Adequate irrigation is crucial throughout its growth stages, with regular flooding or controlled water management methods.</b>
+            <b> Harvesting involves cutting the mature crop, threshing to separate grains from the stalks, and drying before storage.</b></p>
+           <img src="paddy1.jpg"
+            style="width: 500px;">
+            <img src="paddy2.jpg"
+            style="width: 500px;"> 
+           <h3> diseases in paddy and Remedies</h3>
+        <b>
+            <a href="https://plantvillage.psu.edu/topics/rice/infos" target="_blank">diseases and remedies</a>
+        </b>
+      </div>
+      <h2>Sugarcane</h2>
+      <input type="submit" value="view" name="view" onclick="c1d4()">
+      <div id="c1d4" style="display: none">
+        <p>Sugarcane is a tall perennial grass cultivated for its sweet sap, which is processed into sugar and various other products. 
+            <b>It requires well-drained soil, warm temperatures, and ample sunlight for optimal growth. Proper management practices include regular weeding, fertilization, and pest control.</b>
+            <b> Harvesting is done by cutting the mature stalks close to the ground and stripping away the leaves, leading to the extraction of the sugary juice.</b></p>
+            <img src="sugarcane1.jpg"
+            style="width: 500px;">
+            <img src="sugarcane2"
+            style="width: 400px;">
+            <h3>diseases in sugarcane and Remedies</h3>
+        <b>
+            <a href="https://plantvillage.psu.edu/topics/sugarcane/infos" target="_blank">diseases and remedies</a>
+        </b>
+      </div>
+      <h2>Jowar</h2>
+      <input type="submit" value="view" name="view" onclick="c1d5()">
+      <div id="c1d5" style="display: none">
+<p> Jowar, also known as sorghum, is a versatile crop cultivated for its grains and fodder. 
+    <b>It is a hardy crop that can thrive in a variety of climates and soils, requiring low to medium rainfall.</b>
+    <b>Jowar cultivation involves sowing the seeds at the onset of the rainy season, managing weeds and pests, and providing occasional irrigation.</b> 
+   <b> The crop is harvested when the grains are fully mature, typically after 90 to 120 days of sowing.</b></p>
+   <img src="jowar1.jpg"
+   style="width: 400px;">
+   <img src="jowar2.jpg"
+   style="width: 440px;">
+
+        <h3>diseases in jowar and Remedies</h3>
+        <b>
+            <a href="https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-cerels/ipm-strategies-for-sorghum/sorghum-diseases-and-symptoms" target="_blank">diseases and remedies</a>
+        </b>
+      </div>
+   </div>
+
+
+   <script>
+      function hide(x) {
+         if (x.style.display === "none") {
+            x.style.display = "block";
+         }
+         else {
+            x.style.display = "none";
+
+         }
+      }
+
+      function c1()
+      {
+         var x= document.getElementById("demo");
+         hide(x);
+      }
+
+      function c1d1()
+      {
+         var x= document.getElementById("c1d1");
+         hide(x);
+      }
+      function c1d2()
+      {
+         var x= document.getElementById("c1d2");
+         hide(x);
+      }
+      function c1d3()
+      {
+         var x= document.getElementById("c1d3");
+         hide(x);
+      }
+      function c1d4()
+      {
+         var x= document.getElementById("c1d4");
+         hide(x);
+      }
+      function c1d5()
+      {
+         var x= document.getElementById("c1d5");
+         hide(x);
+      }
+   </script>
+</body>
+
+</html>

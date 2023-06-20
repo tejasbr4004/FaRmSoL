@@ -1,0 +1,44 @@
+*main{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 233, 138);
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(158, 160, 34);
+}
+.top h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.pre1{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 15%;
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(45deg, #65da47, #1d93c2);
+}
+.hea{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.fea{
+    padding-left: 30px;
+}
+.pre{
+    margin-top: 20px;
+    display: flex;
+    margin: 50px;
+}
+.ru{
+    font-size: 20px;
+    font: bolder;
+}

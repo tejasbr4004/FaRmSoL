@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>management log</title>
+   <link rel="stylesheet" href="BudgetManagement.css">
+</head>
+<body>
+   <div class="mainHeading">
+      <h1>Budget log and management</h1>
+   </div>
+   <div class="pdiv">
+   <div class="mainDiv">
+   <h2>Crop harvest 1
+   <input type="button" value="select" onclick="ch1()" class="select"></h2>
+   <div id="ch1" style="display: none">
+      <form type="POST" name="sample1">
+   
+         <div class="inputfield" >
+            Date: <input type="date" name="date">
+            Item name: <input type="text" name="item">
+            Cost: <input type="number" name="cost">
+            Comment : <input type="text" name="comment">
+            <input type="button" value="add" onclick="add1()">
+         </div>
+         
+   
+         <div class="Table">
+            <table id="tb1" class="table">
+               <thead>
+                  <th>Date</th>
+                  <th>Crop name</th>
+                  <th>cost</th>
+                  <th>comment</th>
+                  <th>remove</th>
+               </thead>
+               <tbody >
+               </tbody>
+            </table>
+         </div>
+   
+     </form>
+   </div>
+   
+   <h2>Crop harvest 2
+      <input type="button" value="select" onclick="ch2()" class="select"></h2>
+      <div id="ch2" style="display: none;">
+         <form type="POST" name="sample2">
+      
+            <div class="inputfield">
+               Date: <input type="date" name="date">
+               Item name: <input type="text" name="item">
+               Cost: <input type="number" name="cost">
+               Comment : <input type="text" name="comment">
+               <input type="button" value="add" onclick="add2()" >
+            </div>
+            
+      
+            <div class="Table">
+               <table id="tb2" class="table">
+                  <thead>
+                     <th>Date</th>
+                     <th>Crop name</th>
+                     <th>cost</th>
+                     <th>comment</th>
+                     <th>remove</th>
+                  </thead>
+                  <tbody>
+                  </tbody>
+               </table>
+            </div>
+      
+        </form>
+      </div>
+   
+   <h2>Crop harvest 3
+   <input type="button" value="select" onclick="ch3()" class="select"></h2>
+   <div id="ch3" style="display: none;">
+      <form type="POST" name="sample3">
+   
+         <div class="inputfield">
+            Date: <input type="date" name="date">
+            Item name: <input type="text" name="item">
+            Cost: <input type="number" name="cost">
+            Comment : <input type="text" name="comment">
+            <input type="button" value="add" onclick="add3()" >
+         </div>
+         
+   
+         <div class="Table">
+            <table id="tb3" class="table">
+               <thead>
+                  <th>Date</th>
+                  <th>Crop name</th>
+                  <th>cost</th>
+                  <th>comment</th>
+                  <th>remove</th>
+               </thead>
+               <tbody>
+               </tbody>
+            </table>
+         </div>
+   
+     </form>
+   </div>
+   </div>
+   <div class="container">
+      <div class="todo-app">
+          <h2>Items to be purchased</h2>
+          <div class="row">
+              <input type="text" id="input-box" placeholder="Add your text">
+          <button onclick="addTask()" class="addbtn" value="ADD">Add</button>
+
+          </div>
+          <ul id="list-container">
+              <!--<li class="checked">Task1</li>
+              <li>Task2</li>
+              <li>Task3</li>-->
+          </ul>
+      </div>
+  </div>
+</div>
+<script src="BudgetManagement.js"></script>
+</body>
+</html>

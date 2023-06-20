@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Harvest budget</title>
+   <link rel="stylesheet" href="BudgetManagement.css">
+</head>
+<body>
+   <div id="parent">
+      <div class="Form">
+      <form type="POST" name="sample1">
+   
+         <div class="inputfield">
+            Harvest number: <input type="text" name="num">
+            Crop name: <input type="text" name="crop">
+            Quantity: <input type="text" name="item">
+            Budget: <input type="number" name="budget">
+            Selling amount: <input type="text" name="sell">
+            Comment: <input type="text" name="comment">
+            <input type="button" value="add" onclick="add()">
+         </div>
+         
+   
+         <div class="Table">
+            <table id="tb1" class="table">
+               <thead>
+                  <th>Harvest number</th>
+                  <th>Crop name</th>
+                  <th>Quantity</th>
+                  <th>Budget</th>
+                  <th>Selling amount</th>
+                  <th>Comment</th>
+                  <th>remove</th>
+               </thead>
+               <tbody >
+               </tbody>
+            </table>
+         </div>
+   
+     </form>
+   </div>
+   <div class="graphs" style="border: 1px solid red">
+      <div id="curve_chart" style="width: 900px; height: 500px"></div>
+   </div>
+   </div>
+
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'profit', 'budget'],
+          ['2004',  1000,      400],
+          ['2005',  1170,      460],
+          ['2006',  660,       1120],
+          ['2007',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'Budget and profit of each year',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+<script src="harvestBudget.js"></script>
+</body>
+</html>

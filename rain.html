@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rainfall Prediction</title>
+    <style>
+        body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+    </style>
+    <script>
+        function predictRainfall() {
+            var location = document.getElementById("location").value;
+            
+            // Perform a request to an API or database to fetch rainfall data for the location
+            
+            // Placeholder code to simulate API request
+            var rainfallData = {
+                location: location,
+                rainfall: Math.random() * 100 // Random value for demonstration purposes
+            };
+            
+            // Display the predicted rainfall on the page
+            var resultContainer = document.getElementById("result");
+            resultContainer.innerHTML = "The predicted rainfall for " + rainfallData.location + " is " + rainfallData.rainfall + " mm.";
+        }
+    </script>
+</head>
+<body>
+    <h1>Rainfall Prediction</h1>
+    <label for="location">Enter location:</label>
+    <input type="text" id="location" placeholder="Location">
+    <button onclick="predictRainfall()">Predict</button>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+body{
+    /* background:linear-gradient(rgb(6, 183, 45),rgb(170, 243, 148)); */
+    /* background:linear-gradient(rgb(151, 193, 235),rgb(249, 250, 251),rgb(252, 253, 254) ,rgb(151, 193, 235)); */
+    background:linear-gradient(rgb(149, 232, 136),rgb(249, 250, 251),rgb(252, 253, 254) ,rgb(179, 238, 160));
+}
+
+.card{
+    box-shadow: -3px 3px 9px -5px;
+}
+
+#weatherimg{
+    height: 60px;
+    width: 60px;
+}
